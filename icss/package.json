@@ -1,0 +1,17 @@
+{
+	"name": "icss",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"vue": "2.6.11",
+		"vue-router": "3.3.4"
+	},
+	"devDependencies": {},
+	"engines": {
+		"node": ">= 12.0.0",
+		"npm": ">= 6.9.0"
+	}
+}
