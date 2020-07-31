@@ -33,10 +33,10 @@
 	textarea {
 		display: block;
 		padding: 0 20px;
-		outline: none;
 		border: 1px solid #ccc;
 		width: 100%;
 		height: 40px;
+		outline: none;
 		caret-color: #09f;
 		transition: all 300ms;
 		&:valid {
