@@ -5,8 +5,8 @@
 				<span class="gradient">iDea CSS</span>
 				<img src="./assets/img/logo.svg" />
 			</h1>
-			<p>I am JowayYoung, Welcome to <strong class="vue">CSS World</strong></p>
-			<p>请往下滚动浏览</p>
+			<p>I am <strong class="default">JowayYoung</strong> Welcome to <strong class="vue">Pure CSS World</strong></p>
+			<p>请往下滚动浏览👇</p>
 		</div>
 		<div class="content layout">
 			<layout1></layout1>
@@ -24,12 +24,18 @@
 			<behavior9></behavior9>
 			<behavior10></behavior10>
 		</div>
-		<div class="content color"></div>
+		<div class="content color">
+			<color1></color1>
+		</div>
 		<div class="content figure">
 			<figure1></figure1>
+			<figure2></figure2>
 		</div>
 		<div class="content component">
 			<component1></component1>
+			<component2></component2>
+			<component3></component3>
+			<component4></component4>
 		</div>
 	</div>
 </template>
@@ -109,6 +115,7 @@
 			position: absolute;
 			right: 0;
 			bottom: 0;
+			z-index: 99999;
 			padding: 5px 10px;
 			border-top-left-radius: 5px;
 			background-color: #ccc;
@@ -208,8 +215,14 @@ import Behavior9 from "./components/behavior/使用transform模拟视差滚动.v
 import Behavior10 from "./components/behavior/使用valid和invalid校验表单.vue";
 
 import Component1 from "./components/component/迭代计数器.vue";
+import Component2 from "./components/component/滚动指示器.vue";
+import Component3 from "./components/component/气泡背景墙.vue";
+import Component4 from "./components/component/下划线跟随导航栏.vue";
+
+import Color1 from "./components/color/使用linear-gradient控制文本渐变.vue";
 
 import Figure1 from "./components/figure/使用linear-gradient描绘波浪线.vue";
+import Figure2 from "./components/figure/使用mask雕刻镂空背景.vue";
 
 import Layout1 from "./components/layout/使用nth-child()选择指定元素.vue";
 import Layout2 from "./components/layout/使用writing-mode排版竖文.vue";
@@ -217,6 +230,7 @@ import Layout2 from "./components/layout/使用writing-mode排版竖文.vue";
 export default {
 	name: "app",
 	components: {
+		// 行为
 		Behavior1,
 		Behavior2,
 		Behavior3,
@@ -227,8 +241,17 @@ export default {
 		Behavior8,
 		Behavior9,
 		Behavior10,
+		// 组件
 		Component1,
+		Component2,
+		Component3,
+		Component4,
+		// 色彩
+		Color1,
+		// 图形
 		Figure1,
+		Figure2,
+		// 布局
 		Layout1,
 		Layout2
 	}
