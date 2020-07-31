@@ -7,7 +7,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .vertical-text {
 	writing-mode: vertical-rl;
 	h3 {

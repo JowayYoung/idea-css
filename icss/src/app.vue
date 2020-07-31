@@ -17,12 +17,24 @@
 			<behavior2></behavior2>
 			<behavior3></behavior3>
 			<behavior4></behavior4>
+			<behavior5></behavior5>
+			<behavior6></behavior6>
+			<behavior7></behavior7>
+			<behavior8></behavior8>
+			<behavior9></behavior9>
+			<behavior10></behavior10>
+		</div>
+		<div class="content color"></div>
+		<div class="content figure">
+			<figure1></figure1>
+		</div>
+		<div class="content component">
+			<component1></component1>
 		</div>
 	</div>
 </template>
 
 <style lang="scss">
-@import "./assets/css/global.scss";
 .header {
 	overflow: hidden;
 	height: 100vh;
@@ -44,6 +56,9 @@
 		line-height: 1.5;
 		font-size: 20px;
 		color: #fff;
+		& + p {
+			margin-top: 10px;
+		}
 	}
 	strong {
 		display: inline-block;
@@ -72,19 +87,13 @@
 	}
 }
 .content {
-	display: flex;
 	overflow: auto;
-	flex-wrap: wrap;
-	min-height: 500px;
 	transition: all 300ms;
 	.bruce {
 		position: relative;
+		padding: 50px 0;
 		border-bottom: 1px solid #ccc;
-		width: 50%;
-		height: 500px;
-		&:nth-child(odd) {
-			border-right: 1px solid #ccc;
-		}
+		min-height: 300px;
 		&::before {
 			position: absolute;
 			left: 50%;
@@ -107,9 +116,6 @@
 			font-size: 16px;
 			color: #fff;
 		}
-		@include autoResponse(lg) {
-			width: 100%;
-		}
 	}
 	&.layout .bruce {
 		&::before {
@@ -125,6 +131,30 @@
 		}
 		&::after {
 			content: "行为";
+		}
+	}
+	&.color .bruce {
+		&::before {
+			background-color: #f90;
+		}
+		&::after {
+			content: "颜色";
+		}
+	}
+	&.figure .bruce {
+		&::before {
+			background-color: #09f;
+		}
+		&::after {
+			content: "图形";
+		}
+	}
+	&.component .bruce {
+		&::before {
+			background-color: #3c9;
+		}
+		&::after {
+			content: "组件";
 		}
 	}
 }
@@ -166,10 +196,20 @@
 </style>
 
 <script>
-import Behavior1 from "./components/behavior/使用attr()抓取data-x.vue";
-import Behavior2 from "./components/behavior/使用max-height切换自动高度.vue";
-import Behavior3 from "./components/behavior/使用pointer-events禁用事件触发.vue";
-import Behavior4 from "./components/behavior/使用valid和invalid校验表单.vue";
+import Behavior1 from "./components/behavior/使用+或~美化选项框.vue";
+import Behavior2 from "./components/behavior/使用attr()抓取data-.vue";
+import Behavior3 from "./components/behavior/使用focus-within分发冒泡响应.vue";
+import Behavior4 from "./components/behavior/使用max-height切换自动高度.vue";
+import Behavior5 from "./components/behavior/使用not()去除无用属性.vue";
+import Behavior6 from "./components/behavior/使用object-fit规定图像尺寸.vue";
+import Behavior7 from "./components/behavior/使用pointer-events禁用事件触发.vue";
+import Behavior8 from "./components/behavior/使用text-align-last对齐两端文本.vue";
+import Behavior9 from "./components/behavior/使用transform模拟视差滚动.vue";
+import Behavior10 from "./components/behavior/使用valid和invalid校验表单.vue";
+
+import Component1 from "./components/component/迭代计数器.vue";
+
+import Figure1 from "./components/figure/使用linear-gradient描绘波浪线.vue";
 
 import Layout1 from "./components/layout/使用nth-child()选择指定元素.vue";
 import Layout2 from "./components/layout/使用writing-mode排版竖文.vue";
@@ -181,6 +221,14 @@ export default {
 		Behavior2,
 		Behavior3,
 		Behavior4,
+		Behavior5,
+		Behavior6,
+		Behavior7,
+		Behavior8,
+		Behavior9,
+		Behavior10,
+		Component1,
+		Figure1,
 		Layout1,
 		Layout2
 	}

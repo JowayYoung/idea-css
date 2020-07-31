@@ -5,10 +5,9 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .hover-tips {
 	position: relative;
-	margin-top: 10px;
 	padding: 0 20px;
 	border-radius: 10px;
 	height: 40px;
@@ -29,8 +28,8 @@
 		content: attr(data-msg);
 		transition: all 300ms;
 	}
-	&:first-child {
-		margin-top: 0;
+	& + .hover-tips {
+		margin-top: 10px;
 	}
 	&:hover::after {
 		left: calc(100% + 20px);

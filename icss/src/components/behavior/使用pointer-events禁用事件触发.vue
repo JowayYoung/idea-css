@@ -4,7 +4,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .disabled-trigger {
 	padding: 0 20px;
 	border-radius: 10px;

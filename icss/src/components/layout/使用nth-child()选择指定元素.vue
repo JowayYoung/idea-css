@@ -15,7 +15,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .specified-scope {
 	width: 300px;
 	li {

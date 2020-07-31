@@ -17,14 +17,13 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .auto-height {
 	width: 300px;
 	li {
-		margin-top: 5px;
 		cursor: pointer;
-		&:first-child {
-			margin-top: 0;
+		& + li {
+			margin-top: 5px;
 		}
 		&:hover p {
 			border-bottom-width: 1px;

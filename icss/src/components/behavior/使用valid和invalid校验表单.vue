@@ -17,14 +17,11 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .form-validation {
 	width: 500px;
-	div {
+	div + div {
 		margin-top: 10px;
-		&:first-child {
-			margin-top: 0;
-		}
 	}
 	label {
 		display: block;
@@ -44,11 +41,9 @@
 		transition: all 300ms;
 		&:valid {
 			border-color: #3c9;
-			box-shadow: 5px 0 0 #3c9 inset;
 		}
 		&:invalid {
 			border-color: #f66;
-			box-shadow: 5px 0 0 #f66 inset;
 		}
 	}
 	textarea {
