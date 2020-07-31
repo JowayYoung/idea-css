@@ -60,7 +60,6 @@
 	h1 {
 		line-height: 40px;
 		text-align: center;
-		font-weight: bold;
 		font-size: 20px;
 	}
 	p {

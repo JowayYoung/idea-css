@@ -5,8 +5,18 @@
 				<span class="gradient">iDea CSS</span>
 				<img src="./assets/img/logo.svg" />
 			</h1>
-			<p>I am <strong class="default">JowayYoung</strong> Welcome to <strong class="vue">Pure CSS World</strong></p>
-			<p>请往下滚动浏览👇</p>
+			<p>我是JowayYoung，一位CSS爱好者，欢迎来到<strong class="vue">Pure CSS World</strong></p>
+			<p>更多好看的纯CSS特效，请往下滚动浏览👇</p>
+			<p>依据美学标准，笔者将以下纯CSS特效划分为几类</p>
+			<p>布局 行为 色彩 图形 组件</p>
+			<p>大部分纯CSS特效为原创，也有部分参考一些大神的Demo</p>
+			<p>若你有更多想象空间，也可贡献出你的iDea❤️</p>
+			<p>目前已发布<strong class="default">{{count}}</strong>个，为了让更多开发者关注CSS，一起Star、Fork和Watch好吗😜</p>
+			<div>
+				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=star&count=true&size=large" frameborder="0" scrolling="0" width="150" height="30" title="GitHub"></iframe>
+				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="150" height="30" title="GitHub"></iframe>
+				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="150" height="30" title="GitHub"></iframe>
+			</div>
 		</div>
 		<div class="content layout">
 			<layout1></layout1>
@@ -83,6 +93,10 @@
 		&.vue {
 			background-color: #42b983;
 		}
+	}
+	div {
+		display: flex;
+		margin-top: 20px;
 	}
 	.gradient {
 		background-image: linear-gradient(92deg, #f66 0%, #f90 100%);
@@ -214,12 +228,12 @@ import Behavior8 from "./components/behavior/使用text-align-last对齐两端�
 import Behavior9 from "./components/behavior/使用transform模拟视差滚动.vue";
 import Behavior10 from "./components/behavior/使用valid和invalid校验表单.vue";
 
+import Color1 from "./components/color/使用linear-gradient控制文本渐变.vue";
+
 import Component1 from "./components/component/迭代计数器.vue";
 import Component2 from "./components/component/滚动指示器.vue";
 import Component3 from "./components/component/气泡背景墙.vue";
 import Component4 from "./components/component/下划线跟随导航栏.vue";
-
-import Color1 from "./components/color/使用linear-gradient控制文本渐变.vue";
 
 import Figure1 from "./components/figure/使用linear-gradient描绘波浪线.vue";
 import Figure2 from "./components/figure/使用mask雕刻镂空背景.vue";
@@ -241,19 +255,28 @@ export default {
 		Behavior8,
 		Behavior9,
 		Behavior10,
+		// 色彩
+		Color1,
 		// 组件
 		Component1,
 		Component2,
 		Component3,
 		Component4,
-		// 色彩
-		Color1,
 		// 图形
 		Figure1,
 		Figure2,
 		// 布局
 		Layout1,
 		Layout2
+	},
+	data() {
+		return {
+			count: 0
+		};
+	},
+	mounted() {
+		const items = document.getElementsByClassName("bruce") || [];
+		this.count = items.length;
 	}
 };
 </script>

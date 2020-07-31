@@ -25,7 +25,6 @@
 <style lang="scss" scoped>
 h1 {
 	line-height: 50px;
-	font-weight: bold;
 	font-size: 30px;
 	color: #f66;
 }

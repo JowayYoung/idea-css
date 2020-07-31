@@ -18,6 +18,7 @@
 <style lang="scss" scoped>
 .bruce {
 	background-image: linear-gradient(270deg, #8146b4, #6990f6);
+	height: 500px;
 }
 .bubble-bgwall {
 	overflow: hidden;
