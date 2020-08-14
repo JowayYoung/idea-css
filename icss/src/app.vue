@@ -52,12 +52,15 @@
 			<color2></color2>
 			<color3></color3>
 			<color4></color4>
+			<color5></color5>
 		</div>
 		<div class="content figure">
 			<figure1></figure1>
 			<figure2></figure2>
 			<figure3></figure3>
 			<figure4></figure4>
+			<figure5></figure5>
+			<figure6></figure6>
 		</div>
 		<div class="content component">
 			<component1></component1>
@@ -72,6 +75,12 @@
 			<component10></component10>
 			<component11></component11>
 			<component12></component12>
+			<component13></component13>
+			<component14></component14>
+			<component15></component15>
+			<component16></component16>
+			<component17></component17>
+			<component18></component18>
 		</div>
 	</div>
 </template>
@@ -266,28 +275,37 @@ import Behavior10 from "./components/behavior/使用text-align-last对齐两端�
 import Behavior11 from "./components/behavior/使用transform模拟视差滚动";
 import Behavior12 from "./components/behavior/使用valid和invalid校验表单";
 
-import Color1 from "./components/color/使用filter开启网站悼念模式";
-import Color2 from "./components/color/使用linear-gradient控制背景渐变";
-import Color3 from "./components/color/使用linear-gradient控制文本渐变";
-import Color4 from "./components/color/使用selection改变文本选择颜色";
+import Color1 from "./components/color/使用filter模拟Instagram滤镜";
+import Color2 from "./components/color/使用filter开启网站悼念模式";
+import Color3 from "./components/color/使用linear-gradient控制背景渐变";
+import Color4 from "./components/color/使用linear-gradient控制文本渐变";
+import Color5 from "./components/color/使用selection改变文本选择颜色";
 
-import Component1 from "./components/component/倒影加载条";
-import Component2 from "./components/component/迭代计数器";
-import Component3 from "./components/component/动态边框";
-import Component4 from "./components/component/故障文本";
-import Component5 from "./components/component/滚动指示器";
-import Component6 from "./components/component/换色器";
-import Component7 from "./components/component/气泡背景墙";
-import Component8 from "./components/component/三维立方体";
-import Component9 from "./components/component/商城票券";
-import Component10 from "./components/component/下划线跟随导航栏";
-import Component11 from "./components/component/粘粘球";
-import Component12 from "./components/component/状态悬浮球";
+import Component1 from "./components/component/标签导航栏";
+import Component2 from "./components/component/标签页";
+import Component3 from "./components/component/倒影加载条";
+import Component4 from "./components/component/迭代计数器";
+import Component5 from "./components/component/动态边框";
+import Component6 from "./components/component/故障文本";
+import Component7 from "./components/component/滚动指示器";
+import Component8 from "./components/component/换色器";
+import Component9 from "./components/component/加载指示器";
+import Component10 from "./components/component/气泡背景墙";
+import Component11 from "./components/component/三维立方体";
+import Component12 from "./components/component/商城票券";
+import Component13 from "./components/component/下划线跟随导航栏";
+import Component14 from "./components/component/星级评分";
+import Component15 from "./components/component/粘粘球";
+import Component16 from "./components/component/折叠面板";
+import Component17 from "./components/component/状态悬浮球";
+import Component18 from "./components/component/自适应相册";
 
-import Figure1 from "./components/figure/使用conic-gradient描绘饼图";
-import Figure2 from "./components/figure/使用linear-gradient描绘波浪线";
-import Figure3 from "./components/figure/使用linear-gradient描绘彩带";
-import Figure4 from "./components/figure/使用mask雕刻镂空背景";
+import Figure1 from "./components/figure/使用box-shadow描绘单侧投影";
+import Figure2 from "./components/figure/使用conic-gradient描绘饼图";
+import Figure3 from "./components/figure/使用filter描绘头像彩色阴影";
+import Figure4 from "./components/figure/使用linear-gradient描绘波浪线";
+import Figure5 from "./components/figure/使用linear-gradient描绘彩带";
+import Figure6 from "./components/figure/使用mask雕刻镂空背景";
 
 import Layout1 from "./components/layout/使用letter-spacing排版倒序文本";
 import Layout2 from "./components/layout/使用nth-child()选择指定元素";
@@ -318,6 +336,7 @@ export default {
 		Color2,
 		Color3,
 		Color4,
+		Color5,
 		// 组件
 		Component1,
 		Component2,
@@ -331,11 +350,19 @@ export default {
 		Component10,
 		Component11,
 		Component12,
+		Component13,
+		Component14,
+		Component15,
+		Component16,
+		Component17,
+		Component18,
 		// 图形
 		Figure1,
 		Figure2,
 		Figure3,
 		Figure4,
+		Figure5,
+		Figure6,
 		// 布局
 		Layout1,
 		Layout2,

@@ -30,13 +30,12 @@
 		display: flex;
 		position: relative;
 		align-items: center;
-		margin-top: 10px;
 		counter-increment: index 1;
 		&::before {
 			content: counter(index)"、"; /* stylelint-disable-line */
 		}
-		&:first-child {
-			margin-top: 0;
+		& + li {
+			margin-top: 10px;
 		}
 	}
 	input {
