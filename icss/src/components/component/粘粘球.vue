@@ -1,9 +1,9 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="粘粘球">
-		<div class="sticky-ball">
-			<div class="ball-1"></div>
-			<div class="ball-2"></div>
-		</div>
+		<ul class="sticky-ball">
+			<li class="ball-1"></li>
+			<li class="ball-2"></li>
+		</ul>
 	</div>
 </template>
 
@@ -13,7 +13,7 @@
 	width: 320px;
 	height: 80px;
 	filter: contrast(10);
-	div[class*=ball-] {
+	li {
 		position: absolute;
 		top: 0;
 		padding: 10px;
@@ -23,14 +23,14 @@
 		background-color: #f66;
 		filter: blur(5px);
 		animation: 6s infinite;
-	}
-	.ball-1 {
-		left: 0;
-		animation-name: move-1 !important;
-	}
-	.ball-2 {
-		left: 240px;
-		animation-name: move-2 !important;
+		&.ball-1 {
+			left: 0;
+			animation-name: move-1 !important;
+		}
+		&.ball-2 {
+			left: 240px;
+			animation-name: move-2 !important;
+		}
 	}
 }
 @keyframes move-1 {

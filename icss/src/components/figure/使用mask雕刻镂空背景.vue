@@ -1,7 +1,7 @@
 <template>
 	<div class="bruce" data-title="使用mask雕刻镂空背景">
 		<div class="mask-bg flex-ct-x">
-			<div class="mask-layer"></div>
+			<div></div>
 		</div>
 	</div>
 </template>
@@ -29,7 +29,7 @@ $logo: "../../assets/img/logo-netease.svg";
 		filter: blur(10px);
 		content: "";
 	}
-	.mask-layer {
+	div {
 		position: relative;
 		z-index: 9;
 		width: 600px;

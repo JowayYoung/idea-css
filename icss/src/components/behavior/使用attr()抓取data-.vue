@@ -28,9 +28,6 @@
 		content: attr(data-msg);
 		transition: all 300ms;
 	}
-	& + .hover-tips {
-		margin-top: 10px;
-	}
 	&:hover::after {
 		left: calc(100% + 20px);
 		opacity: 1;
@@ -40,6 +37,9 @@
 	}
 	&[href]:empty:hover::after {
 		display: none;
+	}
+	& + .hover-tips {
+		margin-top: 10px;
 	}
 }
 </style>

@@ -1,15 +1,9 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="自适应相册">
 		<ul class="response-album">
-			<li class="item"><img src="https://static.yangzw.vip/codepen/ab-3.jpg"></li>
-			<li class="item"><img src="https://static.yangzw.vip/codepen/ab-3.jpg"></li>
-			<li class="item"><img src="https://static.yangzw.vip/codepen/ab-3.jpg"></li>
-			<li class="item"><img src="https://static.yangzw.vip/codepen/ab-3.jpg"></li>
-			<li class="item"><img src="https://static.yangzw.vip/codepen/ab-3.jpg"></li>
-			<li class="item"><img src="https://static.yangzw.vip/codepen/ab-3.jpg"></li>
-			<li class="item"><img src="https://static.yangzw.vip/codepen/ab-3.jpg"></li>
-			<li class="item"><img src="https://static.yangzw.vip/codepen/ab-3.jpg"></li>
-			<li class="item"><img src="https://static.yangzw.vip/codepen/ab-3.jpg"></li>
+			<li v-for="v in 9" :key="v" class="item">
+				<img src="https://static.yangzw.vip/codepen/ab-3.jpg">
+			</li>
 		</ul>
 	</div>
 </template>

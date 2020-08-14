@@ -1,7 +1,7 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="滚动指示器">
 		<div class="scroll-indicator">
-			<div class="article">
+			<div>
 				<article>
 					<h1>2019中国互联网企业100强榜单</h1>
 					<p>8月14日，中国互联网协会、工业和信息化部网络安全产业发展中心（工业和信息化部信息中心）在2019年中国互联网企业100强发布会暨百强企业高峰论坛上联合发布了2019年中国互联网企业100强榜单、互联网成长型企业20强榜单和《2019年中国互联网企业100强发展报告》。阿里巴巴（中国）有限公司、深圳市腾讯计算机系统有限责任公司、百度公司、京东集团、浙江蚂蚁小微金融服务集团股份有限公司、网易集团、美团点评、北京字节跳动科技有限公司、三六零安全科技股份有限公司、新浪公司位列榜单前十名。</p>
@@ -34,7 +34,7 @@
 		background-color: #fff;
 		content: "";
 	}
-	.article {
+	div {
 		overflow: auto;
 		height: 100%;
 		&::-webkit-scrollbar {
@@ -47,25 +47,25 @@
 			border-radius: 2px;
 			background-color: #66f;
 		}
-		article {
-			padding: 0 20px;
-			background: linear-gradient(to right top, #f66 50%, #f0f0f0 50%) no-repeat;
-			background-size: 100% calc(100% - 298px + 5px);
-			> * {
-				position: relative;
-				z-index: 9;
-			}
+	}
+	article {
+		padding: 0 20px;
+		background: linear-gradient(to right top, #f66 50%, #f0f0f0 50%) no-repeat;
+		background-size: 100% calc(100% - 298px + 5px);
+		> * {
+			position: relative;
+			z-index: 9;
 		}
-		h1 {
-			line-height: 40px;
-			text-align: center;
-			font-size: 20px;
-		}
-		p {
-			margin-top: 20px;
-			line-height: 20px;
-			text-indent: 2em;
-		}
+	}
+	h1 {
+		line-height: 40px;
+		text-align: center;
+		font-size: 20px;
+	}
+	p {
+		margin-top: 20px;
+		line-height: 20px;
+		text-indent: 2em;
 	}
 }
 </style>

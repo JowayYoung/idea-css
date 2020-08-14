@@ -1,9 +1,7 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="使用animation-delay保留动画起始帧">
 		<ul class="initial-keyframe">
-			<li></li>
-			<li></li>
-			<li></li>
+			<li v-for="v in 3" :key="v"></li>
 		</ul>
 	</div>
 </template>
