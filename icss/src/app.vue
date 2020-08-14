@@ -5,7 +5,7 @@
 				<span class="gradient">iDea CSS</span>
 				<img src="./assets/img/logo.svg">
 			</h1>
-			<p>我是JowayYoung，一位CSS爱好者</p>
+			<p>我是JowayYoung，一位重度CSS爱好者</p>
 			<p>欢迎来到<strong class="vue">Pure CSS World</strong></p>
 			<p>请往下滚动浏览更多好看实用的纯CSS特效👇</p>
 			<p>依据美学标准将以下纯CSS特效划分为五大类</p>
@@ -13,10 +13,10 @@
 			<p>大部分纯CSS特效为原创，亦有少部分参考他人</p>
 			<p>2019年在掘金社区发布一篇纯CSS特效文章</p>
 			<p>目前已斩获4000+点赞量和110k+阅读量</p>
-			<p>稳居全社区点赞量前10排行榜并深受好评</p>
+			<p>稳居掘金社区点赞量前10排行榜并深受好评</p>
 			<p>若你有更多想象空间也可贡献出你的iDea CSS❤️</p>
 			<p>目前已发布<strong class="default">{{count}}</strong>个，争取每周更新<strong class="react">1~2</strong>个</p>
-			<p>CSS没有想象中的简单也没有实际中的难懂</p>
+			<p>CSS没有想象中的简单也没有实际中的难用</p>
 			<p>为了让更多开发者关注CSS，一起Star该项目好吗😜</p>
 			<div>
 				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=star&count=true&size=large" frameborder="0" scrolling="0" width="130" height="30" title="GitHub"></iframe>
@@ -32,6 +32,7 @@
 			<layout5></layout5>
 			<layout6></layout6>
 			<layout7></layout7>
+			<layout8></layout8>
 		</div>
 		<div class="content behavior">
 			<behavior1></behavior1>
@@ -46,6 +47,7 @@
 			<behavior10></behavior10>
 			<behavior11></behavior11>
 			<behavior12></behavior12>
+			<behavior13></behavior13>
 		</div>
 		<div class="content color">
 			<color1></color1>
@@ -61,6 +63,9 @@
 			<figure4></figure4>
 			<figure5></figure5>
 			<figure6></figure6>
+			<figure7></figure7>
+			<figure8></figure8>
+			<figure9></figure9>
 		</div>
 		<div class="content component">
 			<component1></component1>
@@ -81,6 +86,7 @@
 			<component16></component16>
 			<component17></component17>
 			<component18></component18>
+			<component19></component19>
 		</div>
 	</div>
 </template>
@@ -271,9 +277,10 @@ import Behavior6 from "./components/behavior/使用max-height切换自动高度"
 import Behavior7 from "./components/behavior/使用not()去除无用属性";
 import Behavior8 from "./components/behavior/使用object-fit规定图像尺寸";
 import Behavior9 from "./components/behavior/使用pointer-events禁用事件触发";
-import Behavior10 from "./components/behavior/使用text-align-last对齐两端文本";
-import Behavior11 from "./components/behavior/使用transform模拟视差滚动";
-import Behavior12 from "./components/behavior/使用valid和invalid校验表单";
+import Behavior10 from "./components/behavior/使用resize拉伸分栏";
+import Behavior11 from "./components/behavior/使用text-align-last对齐两端文本";
+import Behavior12 from "./components/behavior/使用transform模拟视差滚动";
+import Behavior13 from "./components/behavior/使用valid和invalid校验表单";
 
 import Color1 from "./components/color/使用filter模拟Instagram滤镜";
 import Color2 from "./components/color/使用filter开启网站悼念模式";
@@ -290,30 +297,35 @@ import Component6 from "./components/component/故障文本";
 import Component7 from "./components/component/滚动指示器";
 import Component8 from "./components/component/换色器";
 import Component9 from "./components/component/加载指示器";
-import Component10 from "./components/component/气泡背景墙";
-import Component11 from "./components/component/三维立方体";
-import Component12 from "./components/component/商城票券";
-import Component13 from "./components/component/下划线跟随导航栏";
-import Component14 from "./components/component/星级评分";
-import Component15 from "./components/component/粘粘球";
-import Component16 from "./components/component/折叠面板";
-import Component17 from "./components/component/状态悬浮球";
-import Component18 from "./components/component/自适应相册";
+import Component10 from "./components/component/螺纹进度条";
+import Component11 from "./components/component/气泡背景墙";
+import Component12 from "./components/component/三维立方体";
+import Component13 from "./components/component/商城票券";
+import Component14 from "./components/component/下划线跟随导航栏";
+import Component15 from "./components/component/星级评分";
+import Component16 from "./components/component/粘粘球";
+import Component17 from "./components/component/折叠面板";
+import Component18 from "./components/component/状态悬浮球";
+import Component19 from "./components/component/自适应相册";
 
-import Figure1 from "./components/figure/使用box-shadow描绘单侧投影";
-import Figure2 from "./components/figure/使用conic-gradient描绘饼图";
-import Figure3 from "./components/figure/使用filter描绘头像彩色阴影";
-import Figure4 from "./components/figure/使用linear-gradient描绘波浪线";
-import Figure5 from "./components/figure/使用linear-gradient描绘彩带";
-import Figure6 from "./components/figure/使用mask雕刻镂空背景";
+import Figure1 from "./components/figure/使用box-shadow裁剪图像";
+import Figure2 from "./components/figure/使用box-shadow描绘单侧投影";
+import Figure3 from "./components/figure/使用conic-gradient描绘饼图";
+import Figure4 from "./components/figure/使用filter描绘头像彩色阴影";
+import Figure5 from "./components/figure/使用linear-gradient描绘波浪线";
+import Figure6 from "./components/figure/使用linear-gradient描绘彩带";
+import Figure7 from "./components/figure/使用linear-gradient描绘方格背景";
+import Figure8 from "./components/figure/使用mask雕刻镂空背景";
+import Figure9 from "./components/figure/使用outline描绘内边框";
 
 import Layout1 from "./components/layout/使用letter-spacing排版倒序文本";
-import Layout2 from "./components/layout/使用nth-child()选择指定元素";
-import Layout3 from "./components/layout/使用overflow-x排版横向列表";
-import Layout4 from "./components/layout/使用text-overflow控制文本溢出";
-import Layout5 from "./components/layout/使用transform翻转内容";
-import Layout6 from "./components/layout/使用transform描绘1px边框";
-import Layout7 from "./components/layout/使用writing-mode排版竖文";
+import Layout2 from "./components/layout/使用margin-left排版左重右轻列表";
+import Layout3 from "./components/layout/使用nth-child()选择指定元素";
+import Layout4 from "./components/layout/使用overflow-x排版横向列表";
+import Layout5 from "./components/layout/使用text-overflow控制文本溢出";
+import Layout6 from "./components/layout/使用transform翻转内容";
+import Layout7 from "./components/layout/使用transform描绘1px边框";
+import Layout8 from "./components/layout/使用writing-mode排版竖文";
 
 export default {
 	name: "app",
@@ -331,6 +343,7 @@ export default {
 		Behavior10,
 		Behavior11,
 		Behavior12,
+		Behavior13,
 		// 色彩
 		Color1,
 		Color2,
@@ -356,6 +369,7 @@ export default {
 		Component16,
 		Component17,
 		Component18,
+		Component19,
 		// 图形
 		Figure1,
 		Figure2,
@@ -363,6 +377,9 @@ export default {
 		Figure4,
 		Figure5,
 		Figure6,
+		Figure7,
+		Figure8,
+		Figure9,
 		// 布局
 		Layout1,
 		Layout2,
@@ -370,7 +387,8 @@ export default {
 		Layout4,
 		Layout5,
 		Layout6,
-		Layout7
+		Layout7,
+		Layout8
 	},
 	data() {
 		return {
