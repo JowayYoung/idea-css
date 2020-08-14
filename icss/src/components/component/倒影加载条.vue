@@ -9,6 +9,9 @@
 <style lang="scss" scoped>
 $count: 10;
 $color: #66f #09f;
+.bruce {
+	padding-bottom: 150px;
+}
 .reflect-loading {
 	display: flex;
 	height: 100px;
