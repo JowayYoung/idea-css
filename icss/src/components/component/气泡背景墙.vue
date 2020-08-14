@@ -1,16 +1,7 @@
 <template>
 	<div class="bruce" data-title="气泡背景墙">
 		<ul class="bubble-bgwall">
-			<li>Love</li>
-			<li>Love</li>
-			<li>Love</li>
-			<li>Love</li>
-			<li>Love</li>
-			<li>Love</li>
-			<li>Love</li>
-			<li>Love</li>
-			<li>Love</li>
-			<li>Love</li>
+			<li v-for="v in 10" :key="v">Love</li>
 		</ul>
 	</div>
 </template>

@@ -3,16 +3,20 @@
 		<div class="header flex-ct-y">
 			<h1>
 				<span class="gradient">iDea CSS</span>
-				<img src="./assets/img/logo.svg" />
+				<img src="./assets/img/logo.svg">
 			</h1>
 			<p>我是JowayYoung，一位CSS爱好者</p>
 			<p>欢迎来到<strong class="vue">Pure CSS World</strong></p>
-			<p>更多好看的纯CSS特效，请往下滚动浏览👇</p>
+			<p>请往下滚动浏览更多好看实用的纯CSS特效👇</p>
 			<p>依据美学标准将以下纯CSS特效划分为五大类</p>
 			<p>布局-行为-色彩-图形-组件</p>
-			<p>大部分纯CSS特效为原创，也有少部分参考其他</p>
-			<p>若你有更多想象空间，也可贡献出你的iDea❤️</p>
-			<p>目前已发布<strong class="default">{{count}}</strong>个，争取每周更新<strong class="react">2</strong>个</p>
+			<p>大部分纯CSS特效为原创，亦有少部分参考他人</p>
+			<p>2019年在掘金社区发布一篇纯CSS特效文章</p>
+			<p>目前已斩获4000+点赞量和110k+阅读量</p>
+			<p>稳居全社区点赞量前10排行榜并深受好评</p>
+			<p>若你有更多想象空间也可贡献出你的iDea CSS❤️</p>
+			<p>目前已发布<strong class="default">{{count}}</strong>个，争取每周更新<strong class="react">1~2</strong>个</p>
+			<p>CSS没有想象中的简单也没有实际中的难懂</p>
 			<p>为了让更多开发者关注CSS，一起Star该项目好吗😜</p>
 			<div>
 				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=star&count=true&size=large" frameborder="0" scrolling="0" width="130" height="30" title="GitHub"></iframe>
@@ -25,6 +29,9 @@
 			<layout2></layout2>
 			<layout3></layout3>
 			<layout4></layout4>
+			<layout5></layout5>
+			<layout6></layout6>
+			<layout7></layout7>
 		</div>
 		<div class="content behavior">
 			<behavior1></behavior1>
@@ -38,14 +45,19 @@
 			<behavior9></behavior9>
 			<behavior10></behavior10>
 			<behavior11></behavior11>
+			<behavior12></behavior12>
 		</div>
 		<div class="content color">
 			<color1></color1>
 			<color2></color2>
+			<color3></color3>
+			<color4></color4>
 		</div>
 		<div class="content figure">
 			<figure1></figure1>
 			<figure2></figure2>
+			<figure3></figure3>
+			<figure4></figure4>
 		</div>
 		<div class="content component">
 			<component1></component1>
@@ -55,6 +67,11 @@
 			<component5></component5>
 			<component6></component6>
 			<component7></component7>
+			<component8></component8>
+			<component9></component9>
+			<component10></component10>
+			<component11></component11>
+			<component12></component12>
 		</div>
 	</div>
 </template>
@@ -123,6 +140,7 @@
 	}
 }
 .bruce {
+	overflow: hidden;
 	position: relative;
 	padding: 50px 0;
 	border-bottom: 1px solid #ccc;
@@ -134,6 +152,7 @@
 		z-index: 99999;
 		padding: 0 10px;
 		border-radius: 0 0 5px 5px;
+		max-width: 300px;
 		line-height: 20px;
 		color: #fff;
 		content: attr(data-title);
@@ -234,36 +253,49 @@
 </style>
 
 <script>
-import Behavior1 from "./components/behavior/使用+或~美化选项框.vue";
-import Behavior2 from "./components/behavior/使用attr()抓取data-.vue";
-import Behavior3 from "./components/behavior/使用focus-within分发冒泡响应.vue";
-import Behavior4 from "./components/behavior/使用hover描绘鼠标跟随.vue";
-import Behavior5 from "./components/behavior/使用max-height切换自动高度.vue";
-import Behavior6 from "./components/behavior/使用not()去除无用属性.vue";
-import Behavior7 from "./components/behavior/使用object-fit规定图像尺寸.vue";
-import Behavior8 from "./components/behavior/使用pointer-events禁用事件触发.vue";
-import Behavior9 from "./components/behavior/使用text-align-last对齐两端文本.vue";
-import Behavior10 from "./components/behavior/使用transform模拟视差滚动.vue";
-import Behavior11 from "./components/behavior/使用valid和invalid校验表单.vue";
+import Behavior1 from "./components/behavior/使用+或~美化选项框";
+import Behavior2 from "./components/behavior/使用animation-delay保留动画起始帧";
+import Behavior3 from "./components/behavior/使用attr()抓取data-";
+import Behavior4 from "./components/behavior/使用focus-within分发冒泡响应";
+import Behavior5 from "./components/behavior/使用hover描绘鼠标跟随";
+import Behavior6 from "./components/behavior/使用max-height切换自动高度";
+import Behavior7 from "./components/behavior/使用not()去除无用属性";
+import Behavior8 from "./components/behavior/使用object-fit规定图像尺寸";
+import Behavior9 from "./components/behavior/使用pointer-events禁用事件触发";
+import Behavior10 from "./components/behavior/使用text-align-last对齐两端文本";
+import Behavior11 from "./components/behavior/使用transform模拟视差滚动";
+import Behavior12 from "./components/behavior/使用valid和invalid校验表单";
 
-import Color1 from "./components/color/使用linear-gradient控制背景渐变.vue";
-import Color2 from "./components/color/使用linear-gradient控制文本渐变.vue";
+import Color1 from "./components/color/使用filter开启网站悼念模式";
+import Color2 from "./components/color/使用linear-gradient控制背景渐变";
+import Color3 from "./components/color/使用linear-gradient控制文本渐变";
+import Color4 from "./components/color/使用selection改变文本选择颜色";
 
-import Component1 from "./components/component/迭代计数器.vue";
-import Component2 from "./components/component/故障文本.vue";
-import Component3 from "./components/component/滚动指示器.vue";
-import Component4 from "./components/component/换色器.vue";
-import Component5 from "./components/component/气泡背景墙.vue";
-import Component6 from "./components/component/下划线跟随导航栏.vue";
-import Component7 from "./components/component/状态悬浮球";
+import Component1 from "./components/component/倒影加载条";
+import Component2 from "./components/component/迭代计数器";
+import Component3 from "./components/component/动态边框";
+import Component4 from "./components/component/故障文本";
+import Component5 from "./components/component/滚动指示器";
+import Component6 from "./components/component/换色器";
+import Component7 from "./components/component/气泡背景墙";
+import Component8 from "./components/component/三维立方体";
+import Component9 from "./components/component/商城票券";
+import Component10 from "./components/component/下划线跟随导航栏";
+import Component11 from "./components/component/粘粘球";
+import Component12 from "./components/component/状态悬浮球";
 
-import Figure1 from "./components/figure/使用linear-gradient描绘波浪线.vue";
-import Figure2 from "./components/figure/使用mask雕刻镂空背景.vue";
+import Figure1 from "./components/figure/使用conic-gradient描绘饼图";
+import Figure2 from "./components/figure/使用linear-gradient描绘波浪线";
+import Figure3 from "./components/figure/使用linear-gradient描绘彩带";
+import Figure4 from "./components/figure/使用mask雕刻镂空背景";
 
-import Layout1 from "./components/layout/使用nth-child()选择指定元素.vue";
-import Layout2 from "./components/layout/使用overflow-x排版横向列表.vue";
-import Layout3 from "./components/layout/使用text-overflow控制文本溢出.vue";
-import Layout4 from "./components/layout/使用writing-mode排版竖文.vue";
+import Layout1 from "./components/layout/使用letter-spacing排版倒序文本";
+import Layout2 from "./components/layout/使用nth-child()选择指定元素";
+import Layout3 from "./components/layout/使用overflow-x排版横向列表";
+import Layout4 from "./components/layout/使用text-overflow控制文本溢出";
+import Layout5 from "./components/layout/使用transform翻转内容";
+import Layout6 from "./components/layout/使用transform描绘1px边框";
+import Layout7 from "./components/layout/使用writing-mode排版竖文";
 
 export default {
 	name: "app",
@@ -280,9 +312,12 @@ export default {
 		Behavior9,
 		Behavior10,
 		Behavior11,
+		Behavior12,
 		// 色彩
 		Color1,
 		Color2,
+		Color3,
+		Color4,
 		// 组件
 		Component1,
 		Component2,
@@ -291,14 +326,24 @@ export default {
 		Component5,
 		Component6,
 		Component7,
+		Component8,
+		Component9,
+		Component10,
+		Component11,
+		Component12,
 		// 图形
 		Figure1,
 		Figure2,
+		Figure3,
+		Figure4,
 		// 布局
 		Layout1,
 		Layout2,
 		Layout3,
-		Layout4
+		Layout4,
+		Layout5,
+		Layout6,
+		Layout7
 	},
 	data() {
 		return {
