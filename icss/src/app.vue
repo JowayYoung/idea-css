@@ -273,25 +273,25 @@
 </style>
 
 <script>
-import Behavior1 from "./components/behavior/使用+或~美化选项框";
-import Behavior2 from "./components/behavior/使用animation-delay保留动画起始帧";
-import Behavior3 from "./components/behavior/使用attr()抓取data-";
-import Behavior4 from "./components/behavior/使用focus-within分发冒泡响应";
-import Behavior5 from "./components/behavior/使用hover描绘鼠标跟随";
-import Behavior6 from "./components/behavior/使用max-height切换自动高度";
-import Behavior7 from "./components/behavior/使用not()去除无用属性";
-import Behavior8 from "./components/behavior/使用object-fit规定图像尺寸";
-import Behavior9 from "./components/behavior/使用pointer-events禁用事件触发";
-import Behavior10 from "./components/behavior/使用resize拉伸分栏";
-import Behavior11 from "./components/behavior/使用text-align-last对齐两端文本";
-import Behavior12 from "./components/behavior/使用transform模拟视差滚动";
-import Behavior13 from "./components/behavior/使用valid和invalid校验表单";
+import Behavior1 from "./components/behavior/使用@focus-within分发冒泡响应";
+import Behavior2 from "./components/behavior/使用@hover描绘鼠标跟随";
+import Behavior3 from "./components/behavior/使用@not()去除无用属性";
+import Behavior4 from "./components/behavior/使用@valid和@invalid校验表单";
+import Behavior5 from "./components/behavior/使用+或~美化选项框";
+import Behavior6 from "./components/behavior/使用animation-delay保留动画起始帧";
+import Behavior7 from "./components/behavior/使用attr()抓取data-";
+import Behavior8 from "./components/behavior/使用max-height切换自动高度";
+import Behavior9 from "./components/behavior/使用object-fit规定图像尺寸";
+import Behavior10 from "./components/behavior/使用pointer-events禁用事件触发";
+import Behavior11 from "./components/behavior/使用resize拉伸分栏";
+import Behavior12 from "./components/behavior/使用text-align-last对齐两端文本";
+import Behavior13 from "./components/behavior/使用transform模拟视差滚动";
 
-import Color1 from "./components/color/使用filter模拟Instagram滤镜";
+import Color1 from "./components/color/使用@@selection改变文本选择颜色";
 import Color2 from "./components/color/使用filter开启网站悼念模式";
-import Color3 from "./components/color/使用linear-gradient控制背景渐变";
-import Color4 from "./components/color/使用linear-gradient控制文本渐变";
-import Color5 from "./components/color/使用selection改变文本选择颜色";
+import Color3 from "./components/color/使用filter模拟Instagram滤镜";
+import Color4 from "./components/color/使用linear-gradient控制背景渐变";
+import Color5 from "./components/color/使用linear-gradient控制文本渐变";
 
 import Component1 from "./components/component/标签导航栏";
 import Component2 from "./components/component/标签页";
@@ -328,9 +328,9 @@ import Figure7 from "./components/figure/使用linear-gradient描绘方格背景
 import Figure8 from "./components/figure/使用mask雕刻镂空背景";
 import Figure9 from "./components/figure/使用outline描绘内边框";
 
-import Layout1 from "./components/layout/使用letter-spacing排版倒序文本";
-import Layout2 from "./components/layout/使用margin-left排版左重右轻列表";
-import Layout3 from "./components/layout/使用nth-child()选择指定元素";
+import Layout1 from "./components/layout/使用@nth-child()选择指定元素";
+import Layout2 from "./components/layout/使用letter-spacing排版倒序文本";
+import Layout3 from "./components/layout/使用margin-left排版左重右轻列表";
 import Layout4 from "./components/layout/使用overflow-x排版横向列表";
 import Layout5 from "./components/layout/使用text-overflow控制文本溢出";
 import Layout6 from "./components/layout/使用transform翻转内容";
