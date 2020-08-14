@@ -10,6 +10,9 @@
 @function random-num($max, $min: 0, $u: 1) { /* stylelint-disable-line */
 	@return ($min + random($max)) * $u; /* stylelint-disable-line */
 }
+.bruce {
+	padding: 0;
+}
 .mouse-following {
 	display: flex;
 	overflow: hidden;

@@ -21,6 +21,8 @@
 		<div class="content layout">
 			<layout1></layout1>
 			<layout2></layout2>
+			<layout3></layout3>
+			<layout4></layout4>
 		</div>
 		<div class="content behavior">
 			<behavior1></behavior1>
@@ -49,7 +51,8 @@
 			<component3></component3>
 			<component4></component4>
 			<component5></component5>
-			<component6></component6>
+			<!-- <component6></component6>
+			<component7></component7> -->
 		</div>
 	</div>
 </template>
@@ -250,13 +253,16 @@ import Component2 from "./components/component/故障文本.vue";
 import Component3 from "./components/component/滚动指示器.vue";
 import Component4 from "./components/component/换色器.vue";
 import Component5 from "./components/component/气泡背景墙.vue";
-import Component6 from "./components/component/下划线跟随导航栏.vue";
+// import Component6 from "./components/component/下划线跟随导航栏.vue";
+// import Component7 from "./components/component/状态悬浮球";
 
 import Figure1 from "./components/figure/使用linear-gradient描绘波浪线.vue";
 import Figure2 from "./components/figure/使用mask雕刻镂空背景.vue";
 
 import Layout1 from "./components/layout/使用nth-child()选择指定元素.vue";
-import Layout2 from "./components/layout/使用writing-mode排版竖文.vue";
+import Layout2 from "./components/layout/使用overflow-x排版横向列表.vue";
+import Layout3 from "./components/layout/使用text-overflow控制文本溢出.vue";
+import Layout4 from "./components/layout/使用writing-mode排版竖文.vue";
 
 export default {
 	name: "app",
@@ -282,13 +288,16 @@ export default {
 		Component3,
 		Component4,
 		Component5,
-		Component6,
+		// Component6,
+		// Component7,
 		// 图形
 		Figure1,
 		Figure2,
 		// 布局
 		Layout1,
-		Layout2
+		Layout2,
+		Layout3,
+		Layout4
 	},
 	data() {
 		return {

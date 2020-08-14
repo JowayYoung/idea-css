@@ -28,15 +28,15 @@ $logo: "https://static.yangzw.vip/codepen/logo-netease.svg";
 		filter: blur(10px);
 		content: "";
 	}
-}
-.mask-layer {
-	position: relative;
-	z-index: 9;
-	width: 600px;
-	height: 300px;
-	background: url($mask-text) left center/150% auto;
-	mask: url($logo) center/cover;
-	animation: move 10s infinite;
+	.mask-layer {
+		position: relative;
+		z-index: 9;
+		width: 600px;
+		height: 300px;
+		background: url($mask-text) left center/150% auto;
+		mask: url($logo) center/cover;
+		animation: move 10s infinite;
+	}
 }
 @keyframes move {
 	0% {

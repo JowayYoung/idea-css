@@ -25,7 +25,8 @@
 	overflow: hidden;
 	position: relative;
 	margin: 0 auto;
-	width: 1200px;
+	width: 100%;
+	max-width: 1200px;
 	height: 100%;
 	li {
 		display: flex;
