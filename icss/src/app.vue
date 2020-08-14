@@ -5,17 +5,19 @@
 				<span class="gradient">iDea CSS</span>
 				<img src="./assets/img/logo.svg" />
 			</h1>
-			<p>我是JowayYoung，一位CSS爱好者，欢迎来到<strong class="vue">Pure CSS World</strong></p>
+			<p>我是JowayYoung，一位CSS爱好者</p>
+			<p>欢迎来到<strong class="vue">Pure CSS World</strong></p>
 			<p>更多好看的纯CSS特效，请往下滚动浏览👇</p>
-			<p>依据美学标准，笔者将以下纯CSS特效划分为几类</p>
-			<p>布局 行为 色彩 图形 组件</p>
-			<p>大部分纯CSS特效为原创，也有部分参考一些大神的Demo</p>
+			<p>依据美学标准将以下纯CSS特效划分为五大类</p>
+			<p>布局-行为-色彩-图形-组件</p>
+			<p>大部分纯CSS特效为原创，也有少部分参考其他</p>
 			<p>若你有更多想象空间，也可贡献出你的iDea❤️</p>
-			<p>目前已发布<strong class="default">{{count}}</strong>个，为了让更多开发者关注CSS，一起Star、Fork和Watch好吗😜</p>
+			<p>目前已发布<strong class="default">{{count}}</strong>个，争取每周更新<strong class="react">2</strong>个</p>
+			<p>为了让更多开发者关注CSS，一起Star该项目好吗😜</p>
 			<div>
-				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=star&count=true&size=large" frameborder="0" scrolling="0" width="150" height="30" title="GitHub"></iframe>
-				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="150" height="30" title="GitHub"></iframe>
-				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="150" height="30" title="GitHub"></iframe>
+				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=star&count=true&size=large" frameborder="0" scrolling="0" width="130" height="30" title="GitHub"></iframe>
+				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="130" height="30" title="GitHub"></iframe>
+				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="140" height="30" title="GitHub"></iframe>
 			</div>
 		</div>
 		<div class="content layout">
@@ -51,8 +53,8 @@
 			<component3></component3>
 			<component4></component4>
 			<component5></component5>
-			<!-- <component6></component6>
-			<component7></component7> -->
+			<component6></component6>
+			<component7></component7>
 		</div>
 	</div>
 </template>
@@ -85,7 +87,7 @@
 	}
 	p {
 		line-height: 1.5;
-		font-size: 16px;
+		font-size: 1.8vmin;
 		color: #fff;
 		& + p {
 			margin-top: 10px;
@@ -97,7 +99,6 @@
 		padding: 0 6px;
 		border-radius: 5px;
 		line-height: 20px;
-		font-size: 18px;
 		color: #fff;
 		&.default {
 			background-color: #f66;
@@ -253,8 +254,8 @@ import Component2 from "./components/component/故障文本.vue";
 import Component3 from "./components/component/滚动指示器.vue";
 import Component4 from "./components/component/换色器.vue";
 import Component5 from "./components/component/气泡背景墙.vue";
-// import Component6 from "./components/component/下划线跟随导航栏.vue";
-// import Component7 from "./components/component/状态悬浮球";
+import Component6 from "./components/component/下划线跟随导航栏.vue";
+import Component7 from "./components/component/状态悬浮球";
 
 import Figure1 from "./components/figure/使用linear-gradient描绘波浪线.vue";
 import Figure2 from "./components/figure/使用mask雕刻镂空背景.vue";
@@ -288,8 +289,8 @@ export default {
 		Component3,
 		Component4,
 		Component5,
-		// Component6,
-		// Component7,
+		Component6,
+		Component7,
 		// 图形
 		Figure1,
 		Figure2,
