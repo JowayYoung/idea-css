@@ -87,6 +87,11 @@
 			<component17></component17>
 			<component18></component18>
 			<component19></component19>
+			<component20></component20>
+			<component21></component21>
+			<component22></component22>
+			<component23></component23>
+			<component24></component24>
 		</div>
 	</div>
 </template>
@@ -296,17 +301,22 @@ import Component5 from "./components/component/动态边框";
 import Component6 from "./components/component/故障文本";
 import Component7 from "./components/component/滚动指示器";
 import Component8 from "./components/component/换色器";
-import Component9 from "./components/component/加载指示器";
-import Component10 from "./components/component/螺纹进度条";
-import Component11 from "./components/component/气泡背景墙";
-import Component12 from "./components/component/三维立方体";
-import Component13 from "./components/component/商城票券";
-import Component14 from "./components/component/下划线跟随导航栏";
-import Component15 from "./components/component/星级评分";
-import Component16 from "./components/component/粘粘球";
-import Component17 from "./components/component/折叠面板";
-import Component18 from "./components/component/状态悬浮球";
-import Component19 from "./components/component/自适应相册";
+import Component9 from "./components/component/混沌加载圈";
+import Component10 from "./components/component/加载指示器";
+import Component11 from "./components/component/立体按钮";
+import Component12 from "./components/component/螺纹进度条";
+import Component13 from "./components/component/气泡背景墙";
+import Component14 from "./components/component/三维立方体";
+import Component15 from "./components/component/商城票券";
+import Component16 from "./components/component/蛇形边框";
+import Component17 from "./components/component/下划线跟随导航栏";
+import Component18 from "./components/component/星级评分";
+import Component19 from "./components/component/圆角进度条";
+import Component20 from "./components/component/粘粘球";
+import Component21 from "./components/component/折叠面板";
+import Component22 from "./components/component/状态悬浮球";
+import Component23 from "./components/component/自动打字";
+import Component24 from "./components/component/自适应相册";
 
 import Figure1 from "./components/figure/使用box-shadow裁剪图像";
 import Figure2 from "./components/figure/使用box-shadow描绘单侧投影";
@@ -370,6 +380,11 @@ export default {
 		Component17,
 		Component18,
 		Component19,
+		Component20,
+		Component21,
+		Component22,
+		Component23,
+		Component24,
 		// 图形
 		Figure1,
 		Figure2,
