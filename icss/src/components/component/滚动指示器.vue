@@ -34,38 +34,38 @@
 		background-color: #fff;
 		content: "";
 	}
-}
-.article {
-	overflow: auto;
-	height: 100%;
-	&::-webkit-scrollbar {
-		width: 5px;
-	}
-	&::-webkit-scrollbar-track {
-		background-color: #f0f0f0;
-	}
-	&::-webkit-scrollbar-thumb {
-		border-radius: 2px;
-		background-color: #66f;
-	}
-	article {
-		padding: 0 20px;
-		background: linear-gradient(to right top, #f66 50%, #f0f0f0 50%) no-repeat;
-		background-size: 100% calc(100% - 298px + 5px);
-		> * {
-			position: relative;
-			z-index: 9;
+	.article {
+		overflow: auto;
+		height: 100%;
+		&::-webkit-scrollbar {
+			width: 5px;
 		}
-	}
-	h1 {
-		line-height: 40px;
-		text-align: center;
-		font-size: 20px;
-	}
-	p {
-		margin-top: 20px;
-		line-height: 20px;
-		text-indent: 2em;
+		&::-webkit-scrollbar-track {
+			background-color: #f0f0f0;
+		}
+		&::-webkit-scrollbar-thumb {
+			border-radius: 2px;
+			background-color: #66f;
+		}
+		article {
+			padding: 0 20px;
+			background: linear-gradient(to right top, #f66 50%, #f0f0f0 50%) no-repeat;
+			background-size: 100% calc(100% - 298px + 5px);
+			> * {
+				position: relative;
+				z-index: 9;
+			}
+		}
+		h1 {
+			line-height: 40px;
+			text-align: center;
+			font-size: 20px;
+		}
+		p {
+			margin-top: 20px;
+			line-height: 20px;
+			text-indent: 2em;
+		}
 	}
 }
 </style>

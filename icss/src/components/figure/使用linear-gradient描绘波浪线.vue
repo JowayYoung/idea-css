@@ -13,7 +13,8 @@
 		top: 100%;
 		width: 100%;
 		height: $h;
-		background: linear-gradient(135deg, transparent, transparent 45%, $color, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, $color, transparent 55%, transparent 100%);
+		background: linear-gradient(135deg, transparent, transparent 45%, $color, transparent 55%, transparent 100%),
+			linear-gradient(45deg, transparent, transparent 45%, $color, transparent 55%, transparent 100%);
 		background-size: $h * 2 $h * 2;
 		content: "";
 	}
