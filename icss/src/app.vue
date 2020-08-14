@@ -33,9 +33,11 @@
 			<behavior8></behavior8>
 			<behavior9></behavior9>
 			<behavior10></behavior10>
+			<behavior11></behavior11>
 		</div>
 		<div class="content color">
 			<color1></color1>
+			<color2></color2>
 		</div>
 		<div class="content figure">
 			<figure1></figure1>
@@ -46,11 +48,24 @@
 			<component2></component2>
 			<component3></component3>
 			<component4></component4>
+			<component5></component5>
+			<component6></component6>
 		</div>
 	</div>
 </template>
 
 <style lang="scss">
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+::-webkit-scrollbar-track {
+	background-color: rgba(#ccc, .3);
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+	background-color: #ccc;
+}
 .header {
 	overflow: hidden;
 	height: 100vh;
@@ -58,9 +73,6 @@
 	h1 {
 		margin: 20px 0;
 		font-size: 10vmin;
-	}
-	span {
-		animation-duration: 10s !important;
 	}
 	img {
 		display: inline-block;
@@ -70,7 +82,7 @@
 	}
 	p {
 		line-height: 1.5;
-		font-size: 20px;
+		font-size: 16px;
 		color: #fff;
 		& + p {
 			margin-top: 10px;
@@ -102,42 +114,43 @@
 		background-image: linear-gradient(92deg, #f66 0%, #f90 100%);
 		background-clip: text;
 		color: #f66;
-		animation: hue 60s infinite linear;
+		animation: hue 5s infinite linear;
 		-webkit-text-fill-color: transparent;
+	}
+}
+.bruce {
+	position: relative;
+	padding: 50px 0;
+	border-bottom: 1px solid #ccc;
+	min-height: 300px;
+	&::before {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		z-index: 99999;
+		padding: 0 10px;
+		border-radius: 0 0 5px 5px;
+		line-height: 20px;
+		color: #fff;
+		content: attr(data-title);
+		transform: translateX(-50%);
+	}
+	&::after {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		z-index: 99999;
+		padding: 5px 10px;
+		border-top-left-radius: 5px;
+		background-color: #ccc;
+		font-weight: bold;
+		font-size: 16px;
+		color: #fff;
 	}
 }
 .content {
 	overflow: auto;
 	transition: all 300ms;
-	.bruce {
-		position: relative;
-		padding: 50px 0;
-		border-bottom: 1px solid #ccc;
-		min-height: 300px;
-		&::before {
-			position: absolute;
-			left: 50%;
-			top: 0;
-			padding: 0 10px;
-			border-radius: 0 0 5px 5px;
-			line-height: 20px;
-			color: #fff;
-			content: attr(data-title);
-			transform: translateX(-50%);
-		}
-		&::after {
-			position: absolute;
-			right: 0;
-			bottom: 0;
-			z-index: 99999;
-			padding: 5px 10px;
-			border-top-left-radius: 5px;
-			background-color: #ccc;
-			font-weight: bold;
-			font-size: 16px;
-			color: #fff;
-		}
-	}
 	&.layout .bruce {
 		&::before {
 			background-color: #f66;
@@ -220,20 +233,24 @@
 import Behavior1 from "./components/behavior/使用+或~美化选项框.vue";
 import Behavior2 from "./components/behavior/使用attr()抓取data-.vue";
 import Behavior3 from "./components/behavior/使用focus-within分发冒泡响应.vue";
-import Behavior4 from "./components/behavior/使用max-height切换自动高度.vue";
-import Behavior5 from "./components/behavior/使用not()去除无用属性.vue";
-import Behavior6 from "./components/behavior/使用object-fit规定图像尺寸.vue";
-import Behavior7 from "./components/behavior/使用pointer-events禁用事件触发.vue";
-import Behavior8 from "./components/behavior/使用text-align-last对齐两端文本.vue";
-import Behavior9 from "./components/behavior/使用transform模拟视差滚动.vue";
-import Behavior10 from "./components/behavior/使用valid和invalid校验表单.vue";
+import Behavior4 from "./components/behavior/使用hover描绘鼠标跟随.vue";
+import Behavior5 from "./components/behavior/使用max-height切换自动高度.vue";
+import Behavior6 from "./components/behavior/使用not()去除无用属性.vue";
+import Behavior7 from "./components/behavior/使用object-fit规定图像尺寸.vue";
+import Behavior8 from "./components/behavior/使用pointer-events禁用事件触发.vue";
+import Behavior9 from "./components/behavior/使用text-align-last对齐两端文本.vue";
+import Behavior10 from "./components/behavior/使用transform模拟视差滚动.vue";
+import Behavior11 from "./components/behavior/使用valid和invalid校验表单.vue";
 
-import Color1 from "./components/color/使用linear-gradient控制文本渐变.vue";
+import Color1 from "./components/color/使用linear-gradient控制背景渐变.vue";
+import Color2 from "./components/color/使用linear-gradient控制文本渐变.vue";
 
 import Component1 from "./components/component/迭代计数器.vue";
-import Component2 from "./components/component/滚动指示器.vue";
-import Component3 from "./components/component/气泡背景墙.vue";
-import Component4 from "./components/component/下划线跟随导航栏.vue";
+import Component2 from "./components/component/故障文本.vue";
+import Component3 from "./components/component/滚动指示器.vue";
+import Component4 from "./components/component/换色器.vue";
+import Component5 from "./components/component/气泡背景墙.vue";
+import Component6 from "./components/component/下划线跟随导航栏.vue";
 
 import Figure1 from "./components/figure/使用linear-gradient描绘波浪线.vue";
 import Figure2 from "./components/figure/使用mask雕刻镂空背景.vue";
@@ -255,13 +272,17 @@ export default {
 		Behavior8,
 		Behavior9,
 		Behavior10,
+		Behavior11,
 		// 色彩
 		Color1,
+		Color2,
 		// 组件
 		Component1,
 		Component2,
 		Component3,
 		Component4,
+		Component5,
+		Component6,
 		// 图形
 		Figure1,
 		Figure2,

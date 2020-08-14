@@ -19,7 +19,7 @@ $bg: "https://static.yangzw.vip/codepen/bg.jpg";
 .bruce {
 	overflow-x: hidden;
 	overflow-y: auto;
-	height: 500px;
+	height: 400px;
 	perspective: 1px;
 	transform-style: preserve-3d;
 	p {

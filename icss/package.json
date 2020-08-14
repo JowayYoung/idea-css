@@ -6,8 +6,7 @@
 	"author": "",
 	"license": "MIT",
 	"dependencies": {
-		"vue": "2.6.11",
-		"vue-router": "3.3.4"
+		"vue": "2.6.11"
 	},
 	"devDependencies": {},
 	"engines": {

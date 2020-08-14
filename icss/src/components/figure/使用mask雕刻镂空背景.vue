@@ -10,6 +10,10 @@
 $mask-bg: "https://static.yangzw.vip/codepen/mask-bg.jpg";
 $mask-text: "https://static.yangzw.vip/codepen/mask-text.jpg";
 $logo: "https://static.yangzw.vip/codepen/logo-netease.svg";
+.bruce {
+	padding: 0;
+	height: 400px;
+}
 .mask-bg {
 	overflow: hidden;
 	position: relative;
