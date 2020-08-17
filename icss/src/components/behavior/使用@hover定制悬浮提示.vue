@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用:hover和attr()定制悬浮提示">
+	<div class="bruce flex-ct-x" data-title="使用:hover定制悬浮提示">
 		<ul class="hover-tips">
 			<li data-title="姨妈红"></li>
 			<li data-title="基佬紫"></li>

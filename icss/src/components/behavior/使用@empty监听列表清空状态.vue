@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用:empty和::after监听列表清空状态">
+	<div class="bruce flex-ct-x" data-title="使用:empty监听列表清空状态">
 		<ul class="empty-list">
 			<li v-for="v in 10" :key="v">Data {{v + 1}}</li>
 		</ul>

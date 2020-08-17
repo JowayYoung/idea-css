@@ -291,16 +291,16 @@
 </style>
 
 <script>
-import Behavior1 from "./components/behavior/使用@empty和@@after监听列表清空状态";
+import Behavior1 from "./components/behavior/使用@empty监听列表清空状态";
 import Behavior2 from "./components/behavior/使用@focus-within分发冒泡响应";
-import Behavior3 from "./components/behavior/使用@hover和attr()定制悬浮提示";
+import Behavior3 from "./components/behavior/使用@hover定制悬浮提示";
 import Behavior4 from "./components/behavior/使用@hover描绘鼠标跟随";
 import Behavior5 from "./components/behavior/使用@not()去除无用属性";
 import Behavior6 from "./components/behavior/使用@valid和@invalid校验表单";
 import Behavior7 from "./components/behavior/使用+或~美化选项框";
 import Behavior8 from "./components/behavior/使用+或~选择指定元素";
 import Behavior9 from "./components/behavior/使用animation-delay保留动画起始帧";
-import Behavior10 from "./components/behavior/使用attr()抓取data-";
+import Behavior10 from "./components/behavior/使用attr()抓取data-@";
 import Behavior11 from "./components/behavior/使用max-height切换自动高度";
 import Behavior12 from "./components/behavior/使用object-fit规定图像尺寸";
 import Behavior13 from "./components/behavior/使用pointer-events禁用事件触发";
