@@ -97,6 +97,8 @@
 			<component26></component26>
 			<component27></component27>
 			<component28></component28>
+			<component29></component29>
+			<component30></component30>
 		</div>
 	</div>
 </template>
@@ -302,31 +304,33 @@ import Color5 from "./components/color/使用linear-gradient控制文本渐变";
 import Component1 from "./components/component/标签导航栏";
 import Component2 from "./components/component/标签页";
 import Component3 from "./components/component/倒影加载条";
-import Component4 from "./components/component/迭代计数器";
-import Component5 from "./components/component/动态边框";
-import Component6 from "./components/component/故障文本";
-import Component7 from "./components/component/滚动指示器";
-import Component8 from "./components/component/换色器";
-import Component9 from "./components/component/混沌加载圈";
-import Component10 from "./components/component/加载指示器";
-import Component11 from "./components/component/立体按钮";
-import Component12 from "./components/component/螺纹进度条";
-import Component13 from "./components/component/气泡背景墙";
-import Component14 from "./components/component/三维立方体";
-import Component15 from "./components/component/商城票券";
-import Component16 from "./components/component/蛇形边框";
-import Component17 from "./components/component/下划线跟随导航栏";
-import Component18 from "./components/component/心形加载条";
-import Component19 from "./components/component/星级评分";
-import Component20 from "./components/component/悬浮跟踪按钮";
-import Component21 from "./components/component/悬浮视差按钮";
-import Component22 from "./components/component/圆角进度条";
-import Component23 from "./components/component/粘粘球";
-import Component24 from "./components/component/折叠面板";
-import Component25 from "./components/component/专栏头像";
-import Component26 from "./components/component/状态悬浮球";
-import Component27 from "./components/component/自动打字";
-import Component28 from "./components/component/自适应相册";
+import Component4 from "./components/component/点赞按钮";
+import Component5 from "./components/component/迭代计数器";
+import Component6 from "./components/component/动态边框";
+import Component7 from "./components/component/故障文本";
+import Component8 from "./components/component/滚动指示器";
+import Component9 from "./components/component/换色器";
+import Component10 from "./components/component/混沌加载圈";
+import Component11 from "./components/component/加载指示器";
+import Component12 from "./components/component/立体按钮";
+import Component13 from "./components/component/螺纹进度条";
+import Component14 from "./components/component/气泡背景墙";
+import Component15 from "./components/component/三维立方体";
+import Component16 from "./components/component/商城票券";
+import Component17 from "./components/component/蛇形边框";
+import Component18 from "./components/component/条形加载条";
+import Component19 from "./components/component/下划线跟随导航栏";
+import Component20 from "./components/component/心形加载条";
+import Component21 from "./components/component/星级评分";
+import Component22 from "./components/component/悬浮跟踪按钮";
+import Component23 from "./components/component/悬浮视差按钮";
+import Component24 from "./components/component/圆角进度条";
+import Component25 from "./components/component/粘粘球";
+import Component26 from "./components/component/折叠面板";
+import Component27 from "./components/component/专栏头像";
+import Component28 from "./components/component/状态悬浮球";
+import Component29 from "./components/component/自动打字";
+import Component30 from "./components/component/自适应相册";
 
 import Figure1 from "./components/figure/使用box-shadow裁剪图像";
 import Figure2 from "./components/figure/使用box-shadow描绘单侧投影";
@@ -400,6 +404,8 @@ export default {
 		Component26,
 		Component27,
 		Component28,
+		Component29,
+		Component30,
 		// 图形
 		Figure1,
 		Figure2,
