@@ -48,6 +48,7 @@
 			<behavior11></behavior11>
 			<behavior12></behavior12>
 			<behavior13></behavior13>
+			<behavior14></behavior14>
 		</div>
 		<div class="content color">
 			<color1></color1>
@@ -92,6 +93,10 @@
 			<component22></component22>
 			<component23></component23>
 			<component24></component24>
+			<component25></component25>
+			<component26></component26>
+			<component27></component27>
+			<component28></component28>
 		</div>
 	</div>
 </template>
@@ -278,14 +283,15 @@ import Behavior2 from "./components/behavior/使用@hover描绘鼠标跟随";
 import Behavior3 from "./components/behavior/使用@not()去除无用属性";
 import Behavior4 from "./components/behavior/使用@valid和@invalid校验表单";
 import Behavior5 from "./components/behavior/使用+或~美化选项框";
-import Behavior6 from "./components/behavior/使用animation-delay保留动画起始帧";
-import Behavior7 from "./components/behavior/使用attr()抓取data-";
-import Behavior8 from "./components/behavior/使用max-height切换自动高度";
-import Behavior9 from "./components/behavior/使用object-fit规定图像尺寸";
-import Behavior10 from "./components/behavior/使用pointer-events禁用事件触发";
-import Behavior11 from "./components/behavior/使用resize拉伸分栏";
-import Behavior12 from "./components/behavior/使用text-align-last对齐两端文本";
-import Behavior13 from "./components/behavior/使用transform模拟视差滚动";
+import Behavior6 from "./components/behavior/使用+或~选择指定元素";
+import Behavior7 from "./components/behavior/使用animation-delay保留动画起始帧";
+import Behavior8 from "./components/behavior/使用attr()抓取data-";
+import Behavior9 from "./components/behavior/使用max-height切换自动高度";
+import Behavior10 from "./components/behavior/使用object-fit规定图像尺寸";
+import Behavior11 from "./components/behavior/使用pointer-events禁用事件触发";
+import Behavior12 from "./components/behavior/使用resize拉伸分栏";
+import Behavior13 from "./components/behavior/使用text-align-last对齐两端文本";
+import Behavior14 from "./components/behavior/使用transform模拟视差滚动";
 
 import Color1 from "./components/color/使用@@selection改变文本选择颜色";
 import Color2 from "./components/color/使用filter开启网站悼念模式";
@@ -310,13 +316,17 @@ import Component14 from "./components/component/三维立方体";
 import Component15 from "./components/component/商城票券";
 import Component16 from "./components/component/蛇形边框";
 import Component17 from "./components/component/下划线跟随导航栏";
-import Component18 from "./components/component/星级评分";
-import Component19 from "./components/component/圆角进度条";
-import Component20 from "./components/component/粘粘球";
-import Component21 from "./components/component/折叠面板";
-import Component22 from "./components/component/状态悬浮球";
-import Component23 from "./components/component/自动打字";
-import Component24 from "./components/component/自适应相册";
+import Component18 from "./components/component/心形加载条";
+import Component19 from "./components/component/星级评分";
+import Component20 from "./components/component/悬浮跟踪按钮";
+import Component21 from "./components/component/悬浮视差按钮";
+import Component22 from "./components/component/圆角进度条";
+import Component23 from "./components/component/粘粘球";
+import Component24 from "./components/component/折叠面板";
+import Component25 from "./components/component/专栏头像";
+import Component26 from "./components/component/状态悬浮球";
+import Component27 from "./components/component/自动打字";
+import Component28 from "./components/component/自适应相册";
 
 import Figure1 from "./components/figure/使用box-shadow裁剪图像";
 import Figure2 from "./components/figure/使用box-shadow描绘单侧投影";
@@ -354,6 +364,7 @@ export default {
 		Behavior11,
 		Behavior12,
 		Behavior13,
+		Behavior14,
 		// 色彩
 		Color1,
 		Color2,
@@ -385,6 +396,10 @@ export default {
 		Component22,
 		Component23,
 		Component24,
+		Component25,
+		Component26,
+		Component27,
+		Component28,
 		// 图形
 		Figure1,
 		Figure2,
