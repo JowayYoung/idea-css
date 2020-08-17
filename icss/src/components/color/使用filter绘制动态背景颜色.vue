@@ -1,0 +1,43 @@
+<template>
+	<div ref="bg" class="bruce flex-ct-x" data-title="使用filter绘制动态背景颜色">
+		<a class="dynamic-bgcolor" @mousemove="move"></a>
+	</div>
+</template>
+
+<style lang="scss" scoped>
+.bruce {
+	--x: 0;
+	--width: 400;
+	--Θ: calc(var(--x) / var(--width) * 1turn);
+	background-color: #3c9;
+	filter: hue-rotate(var(--Θ));
+	transition: all 300ms;
+}
+.dynamic-bgcolor {
+	overflow: hidden;
+	border-radius: 25px;
+	width: calc(var(--width) * 1px);
+	height: 50px;
+	background-color: #66f;
+	box-shadow: 0 0 2px rgba(#000, .5);
+	filter: none !important;
+	cursor: pointer;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+}
+</style>
+
+<script>
+export default {
+	mounted() {
+		this.bgStyle = this.$refs.bg.style;
+	},
+	methods: {
+		move(e) {
+			this.bgStyle.setProperty("--x", e.offsetX);
+		}
+	}
+};
+</script>

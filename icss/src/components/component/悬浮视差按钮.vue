@@ -1,6 +1,6 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="悬浮视差按钮">
-		<a ref="parallaxBtn" class="parallax-btn" data-title="妙用CSS变量，让你的CSS变得更心动" @mousemove="move" @mouseup="up" @mousedown="down" @mouseleave="leave"></a>
+		<a ref="btn" class="parallax-btn" data-title="妙用CSS变量，让你的CSS变得更心动" @mousemove="move" @mouseup="up" @mousedown="down" @mouseleave="leave"></a>
 	</div>
 </template>
 
@@ -47,8 +47,8 @@
 <script>
 export default {
 	mounted() {
-		this.btnStyle = this.$refs.parallaxBtn.style;
-		this.btnRect = this.$refs.parallaxBtn.getBoundingClientRect();
+		this.btnStyle = this.$refs.btn.style;
+		this.btnRect = this.$refs.btn.getBoundingClientRect();
 	},
 	methods: {
 		down(e) {

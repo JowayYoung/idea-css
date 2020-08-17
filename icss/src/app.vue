@@ -33,6 +33,7 @@
 			<layout6></layout6>
 			<layout7></layout7>
 			<layout8></layout8>
+			<layout9></layout9>
 		</div>
 		<div class="content behavior">
 			<behavior1></behavior1>
@@ -49,6 +50,8 @@
 			<behavior12></behavior12>
 			<behavior13></behavior13>
 			<behavior14></behavior14>
+			<behavior15></behavior15>
+			<behavior16></behavior16>
 		</div>
 		<div class="content color">
 			<color1></color1>
@@ -56,6 +59,10 @@
 			<color3></color3>
 			<color4></color4>
 			<color5></color5>
+			<color6></color6>
+			<color7></color7>
+			<color8></color8>
+			<color9></color9>
 		</div>
 		<div class="content figure">
 			<figure1></figure1>
@@ -67,6 +74,9 @@
 			<figure7></figure7>
 			<figure8></figure8>
 			<figure9></figure9>
+			<figure10></figure10>
+			<figure11></figure11>
+			<figure12></figure12>
 		</div>
 		<div class="content component">
 			<component1></component1>
@@ -99,6 +109,7 @@
 			<component28></component28>
 			<component29></component29>
 			<component30></component30>
+			<component31></component31>
 		</div>
 	</div>
 </template>
@@ -280,76 +291,87 @@
 </style>
 
 <script>
-import Behavior1 from "./components/behavior/使用@focus-within分发冒泡响应";
-import Behavior2 from "./components/behavior/使用@hover描绘鼠标跟随";
-import Behavior3 from "./components/behavior/使用@not()去除无用属性";
-import Behavior4 from "./components/behavior/使用@valid和@invalid校验表单";
-import Behavior5 from "./components/behavior/使用+或~美化选项框";
-import Behavior6 from "./components/behavior/使用+或~选择指定元素";
-import Behavior7 from "./components/behavior/使用animation-delay保留动画起始帧";
-import Behavior8 from "./components/behavior/使用attr()抓取data-";
-import Behavior9 from "./components/behavior/使用max-height切换自动高度";
-import Behavior10 from "./components/behavior/使用object-fit规定图像尺寸";
-import Behavior11 from "./components/behavior/使用pointer-events禁用事件触发";
-import Behavior12 from "./components/behavior/使用resize拉伸分栏";
-import Behavior13 from "./components/behavior/使用text-align-last对齐两端文本";
-import Behavior14 from "./components/behavior/使用transform模拟视差滚动";
+import Behavior1 from "./components/behavior/使用@empty和@@after监听列表清空状态";
+import Behavior2 from "./components/behavior/使用@focus-within分发冒泡响应";
+import Behavior3 from "./components/behavior/使用@hover和attr()定制悬浮提示";
+import Behavior4 from "./components/behavior/使用@hover描绘鼠标跟随";
+import Behavior5 from "./components/behavior/使用@not()去除无用属性";
+import Behavior6 from "./components/behavior/使用@valid和@invalid校验表单";
+import Behavior7 from "./components/behavior/使用+或~美化选项框";
+import Behavior8 from "./components/behavior/使用+或~选择指定元素";
+import Behavior9 from "./components/behavior/使用animation-delay保留动画起始帧";
+import Behavior10 from "./components/behavior/使用attr()抓取data-";
+import Behavior11 from "./components/behavior/使用max-height切换自动高度";
+import Behavior12 from "./components/behavior/使用object-fit规定图像尺寸";
+import Behavior13 from "./components/behavior/使用pointer-events禁用事件触发";
+import Behavior14 from "./components/behavior/使用resize拉伸分栏";
+import Behavior15 from "./components/behavior/使用text-align-last对齐两端文本";
+import Behavior16 from "./components/behavior/使用transform模拟视差滚动";
 
 import Color1 from "./components/color/使用@@selection改变文本选择颜色";
-import Color2 from "./components/color/使用filter开启网站悼念模式";
-import Color3 from "./components/color/使用filter模拟Instagram滤镜";
-import Color4 from "./components/color/使用linear-gradient控制背景渐变";
-import Color5 from "./components/color/使用linear-gradient控制文本渐变";
+import Color2 from "./components/color/使用@nth-child()绘制信号彩带";
+import Color3 from "./components/color/使用box-shadow绘制彩虹色带";
+import Color4 from "./components/color/使用filter绘制动态背景颜色";
+import Color5 from "./components/color/使用filter开启网站悼念模式";
+import Color6 from "./components/color/使用filter模拟Instagram滤镜";
+import Color7 from "./components/color/使用linear-gradient控制背景渐变";
+import Color8 from "./components/color/使用linear-gradient控制文本渐变";
+import Color9 from "./components/color/使用linear-gradient控制文本闪烁";
 
-import Component1 from "./components/component/标签导航栏";
-import Component2 from "./components/component/标签页";
-import Component3 from "./components/component/倒影加载条";
-import Component4 from "./components/component/点赞按钮";
-import Component5 from "./components/component/迭代计数器";
-import Component6 from "./components/component/动态边框";
-import Component7 from "./components/component/故障文本";
-import Component8 from "./components/component/滚动指示器";
-import Component9 from "./components/component/换色器";
-import Component10 from "./components/component/混沌加载圈";
-import Component11 from "./components/component/加载指示器";
-import Component12 from "./components/component/立体按钮";
-import Component13 from "./components/component/螺纹进度条";
-import Component14 from "./components/component/气泡背景墙";
-import Component15 from "./components/component/三维立方体";
-import Component16 from "./components/component/商城票券";
-import Component17 from "./components/component/蛇形边框";
-import Component18 from "./components/component/条形加载条";
-import Component19 from "./components/component/下划线跟随导航栏";
-import Component20 from "./components/component/心形加载条";
-import Component21 from "./components/component/星级评分";
-import Component22 from "./components/component/悬浮跟踪按钮";
-import Component23 from "./components/component/悬浮视差按钮";
-import Component24 from "./components/component/圆角进度条";
-import Component25 from "./components/component/粘粘球";
-import Component26 from "./components/component/折叠面板";
-import Component27 from "./components/component/专栏头像";
-import Component28 from "./components/component/状态悬浮球";
-import Component29 from "./components/component/自动打字";
-import Component30 from "./components/component/自适应相册";
+import Component1 from "./components/component/iOS开关按钮";
+import Component2 from "./components/component/标签导航栏";
+import Component3 from "./components/component/标签页";
+import Component4 from "./components/component/倒影加载条";
+import Component5 from "./components/component/点赞按钮";
+import Component6 from "./components/component/迭代计数器";
+import Component7 from "./components/component/动态边框";
+import Component8 from "./components/component/故障文本";
+import Component9 from "./components/component/滚动指示器";
+import Component10 from "./components/component/换色器";
+import Component11 from "./components/component/混沌加载圈";
+import Component12 from "./components/component/加载指示器";
+import Component13 from "./components/component/立体按钮";
+import Component14 from "./components/component/螺纹进度条";
+import Component15 from "./components/component/气泡背景墙";
+import Component16 from "./components/component/三维立方体";
+import Component17 from "./components/component/商城票券";
+import Component18 from "./components/component/蛇形边框";
+import Component19 from "./components/component/条形加载条";
+import Component20 from "./components/component/下划线跟随导航栏";
+import Component21 from "./components/component/心形加载条";
+import Component22 from "./components/component/星级评分";
+import Component23 from "./components/component/悬浮跟踪按钮";
+import Component24 from "./components/component/悬浮视差按钮";
+import Component25 from "./components/component/圆角进度条";
+import Component26 from "./components/component/粘粘球";
+import Component27 from "./components/component/折叠面板";
+import Component28 from "./components/component/专栏头像";
+import Component29 from "./components/component/状态悬浮球";
+import Component30 from "./components/component/自动打字";
+import Component31 from "./components/component/自适应相册";
 
 import Figure1 from "./components/figure/使用box-shadow裁剪图像";
 import Figure2 from "./components/figure/使用box-shadow描绘单侧投影";
-import Figure3 from "./components/figure/使用conic-gradient描绘饼图";
-import Figure4 from "./components/figure/使用filter描绘头像彩色阴影";
-import Figure5 from "./components/figure/使用linear-gradient描绘波浪线";
-import Figure6 from "./components/figure/使用linear-gradient描绘彩带";
-import Figure7 from "./components/figure/使用linear-gradient描绘方格背景";
-import Figure8 from "./components/figure/使用mask雕刻镂空背景";
-import Figure9 from "./components/figure/使用outline描绘内边框";
+import Figure3 from "./components/figure/使用clip-path描绘各种图形";
+import Figure4 from "./components/figure/使用conic-gradient描绘饼图";
+import Figure5 from "./components/figure/使用filter雕刻毛玻璃效果";
+import Figure6 from "./components/figure/使用filter描绘头像彩色阴影";
+import Figure7 from "./components/figure/使用linear-gradient描绘波浪线";
+import Figure8 from "./components/figure/使用linear-gradient描绘彩带";
+import Figure9 from "./components/figure/使用linear-gradient描绘方格背景";
+import Figure10 from "./components/figure/使用linear-gradient描绘网格背景";
+import Figure11 from "./components/figure/使用mask雕刻镂空背景";
+import Figure12 from "./components/figure/使用outline描绘内边框";
 
 import Layout1 from "./components/layout/使用@nth-child()选择指定元素";
-import Layout2 from "./components/layout/使用letter-spacing排版倒序文本";
-import Layout3 from "./components/layout/使用margin-left排版左重右轻列表";
-import Layout4 from "./components/layout/使用overflow-x排版横向列表";
-import Layout5 from "./components/layout/使用text-overflow控制文本溢出";
-import Layout6 from "./components/layout/使用transform翻转内容";
-import Layout7 from "./components/layout/使用transform描绘1px边框";
-import Layout8 from "./components/layout/使用writing-mode排版竖文";
+import Layout2 from "./components/layout/使用clip-path排版蜂窝布局";
+import Layout3 from "./components/layout/使用letter-spacing排版倒序文本";
+import Layout4 from "./components/layout/使用margin-left排版左重右轻列表";
+import Layout5 from "./components/layout/使用overflow-x排版横向列表";
+import Layout6 from "./components/layout/使用text-overflow控制文本溢出";
+import Layout7 from "./components/layout/使用transform翻转内容";
+import Layout8 from "./components/layout/使用transform描绘1px边框";
+import Layout9 from "./components/layout/使用writing-mode排版竖文";
 
 export default {
 	name: "app",
@@ -369,12 +391,18 @@ export default {
 		Behavior12,
 		Behavior13,
 		Behavior14,
+		Behavior15,
+		Behavior16,
 		// 色彩
 		Color1,
 		Color2,
 		Color3,
 		Color4,
 		Color5,
+		Color6,
+		Color7,
+		Color8,
+		Color9,
 		// 组件
 		Component1,
 		Component2,
@@ -406,6 +434,7 @@ export default {
 		Component28,
 		Component29,
 		Component30,
+		Component31,
 		// 图形
 		Figure1,
 		Figure2,
@@ -416,6 +445,9 @@ export default {
 		Figure7,
 		Figure8,
 		Figure9,
+		Figure10,
+		Figure11,
+		Figure12,
 		// 布局
 		Layout1,
 		Layout2,
@@ -424,7 +456,8 @@ export default {
 		Layout5,
 		Layout6,
 		Layout7,
-		Layout8
+		Layout8,
+		Layout9
 	},
 	data() {
 		return {
