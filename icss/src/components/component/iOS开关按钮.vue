@@ -17,6 +17,24 @@
 	cursor: pointer;
 	transition: all 100ms;
 	@extend .btn;
+	&::before {
+		position: absolute;
+		content: "";
+		transition: all 300ms cubic-bezier(.45, 1, .4, 1);
+		@extend .btn;
+	}
+	&::after {
+		position: absolute;
+		left: 4px;
+		top: 4px;
+		border-radius: 27px;
+		width: 54px;
+		height: 54px;
+		background-color: #fff;
+		box-shadow: 1px 1px 5px rgba(#000, .3);
+		content: "";
+		transition: all 300ms cubic-bezier(.4, .4, .25, 1.35);
+	}
 	&:checked {
 		background-color: #5eb662;
 		&::before {
@@ -26,23 +44,5 @@
 			transform: translateX(40px);
 		}
 	}
-}
-.ios-switch::before {
-	position: absolute;
-	content: "";
-	transition: all 300ms cubic-bezier(.45, 1, .4, 1);
-	@extend .btn;
-}
-.ios-switch::after {
-	position: absolute;
-	left: 4px;
-	top: 4px;
-	border-radius: 27px;
-	width: 54px;
-	height: 54px;
-	background-color: #fff;
-	box-shadow: 1px 1px 5px rgba(#000, .3);
-	content: "";
-	transition: all 300ms cubic-bezier(.4, .4, .25, 1.35);
 }
 </style>
