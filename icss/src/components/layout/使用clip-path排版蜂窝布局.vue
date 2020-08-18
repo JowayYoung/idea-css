@@ -26,6 +26,9 @@
 </template>
 
 <style lang="scss" scoped>
+.bruce {
+	padding: 100px 0;
+}
 .cellular-layout {
 	display: flex;
 	flex-wrap: wrap;

@@ -1,6 +1,6 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="悬浮跟踪按钮">
-		<a ref="btn" class="track-btn" @mousemove="move">
+		<a class="track-btn" @mousemove="move">
 			<span>妙用CSS变量，让你的CSS变得更心动</span>
 		</a>
 	</div>
@@ -43,13 +43,10 @@
 
 <script>
 export default {
-	mounted() {
-		this.btnStyle = this.$refs.btn.style;
-	},
 	methods: {
 		move(e) {
-			this.btnStyle.setProperty("--x", `${e.offsetX}px`);
-			this.btnStyle.setProperty("--y", `${e.offsetY}px`);
+			e.target.style.setProperty("--x", `${e.offsetX}px`);
+			e.target.style.setProperty("--y", `${e.offsetY}px`);
 		}
 	}
 };
