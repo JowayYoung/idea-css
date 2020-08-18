@@ -58,29 +58,29 @@
 		}
 		li {
 			padding: 0 10px;
-			&.next {
-				background-color: #66f;
+		}
+		.next {
+			background-color: #66f;
+			color: #fff;
+			& + li {
+				background-color: #f90;
 				color: #fff;
-				& + li {
-					background-color: #f90;
-					color: #fff;
-				}
 			}
-			&.next-all {
-				background-color: #66f;
+		}
+		.next-all {
+			background-color: #66f;
+			color: #fff;
+			& ~ li {
+				background-color: #09f;
 				color: #fff;
-				& ~ li {
-					background-color: #09f;
-					color: #fff;
-				}
 			}
-			&.next-filter {
-				background-color: #66f;
+		}
+		.next-filter {
+			background-color: #66f;
+			color: #fff;
+			& ~ .filter {
+				background-color: #09f;
 				color: #fff;
-				& ~ .filter {
-					background-color: #09f;
-					color: #fff;
-				}
 			}
 		}
 	}

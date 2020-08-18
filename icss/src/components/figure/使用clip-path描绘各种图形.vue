@@ -30,42 +30,42 @@
 		height: 100px;
 		background-color: #3c9;
 		filter: hue-rotate(var(--Θ));
-	}
-	.star {
-		clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-	}
-	.ellipse {
-		clip-path: ellipse(40% 50% at 50% 50%);
-	}
-	.circle {
-		clip-path: circle(50% at 50% 50%);
-	}
-	.triangle {
-		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-	}
-	.rhombus {
-		clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-	}
-	.trapezoid {
-		clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-	}
-	.parallelogram {
-		clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-	}
-	.pentagon {
-		clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-	}
-	.left-arrow {
-		clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
-	}
-	.right-arrow {
-		clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
-	}
-	.close {
-		clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
-	}
-	.message {
-		clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+		&.star {
+			clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+		}
+		&.ellipse {
+			clip-path: ellipse(40% 50% at 50% 50%);
+		}
+		&.circle {
+			clip-path: circle(50% at 50% 50%);
+		}
+		&.triangle {
+			clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+		}
+		&.rhombus {
+			clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+		}
+		&.trapezoid {
+			clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+		}
+		&.parallelogram {
+			clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+		}
+		&.pentagon {
+			clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+		}
+		&.left-arrow {
+			clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+		}
+		&.right-arrow {
+			clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+		}
+		&.close {
+			clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+		}
+		&.message {
+			clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+		}
 	}
 }
 </style>
