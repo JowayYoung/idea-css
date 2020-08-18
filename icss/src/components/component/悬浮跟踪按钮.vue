@@ -22,6 +22,7 @@
 	color: #fff;
 	span {
 		position: relative;
+		pointer-events: none; // 不加会卡顿
 	}
 	&::before {
 		--size: 0;
@@ -33,7 +34,7 @@
 		background-image: radial-gradient(circle closest-side, #09f, transparent);
 		content: "";
 		transform: translate3d(-50%, -50%, 0);
-		transition: all 200ms ease;
+		transition: width 200ms ease, height 200ms ease;
 	}
 	&:hover::before {
 		--size: 400px;

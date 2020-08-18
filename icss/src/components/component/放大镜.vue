@@ -33,8 +33,8 @@ $outbox-h: $box-h * $ratio;
 		background-size: $outbox-w $outbox-h;
 		box-shadow: 1px 1px 3px rgba(#000, .5);
 		content: "";
+		will-change: left, top;
 		transform: translate3d(-50%, -50%, 0);
-		transition: all 200ms ease;
 	}
 	&:hover::before {
 		--size: 100px;

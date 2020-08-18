@@ -17,6 +17,9 @@
 $width: 150px;
 $height: 150px;
 $length: 150px;
+.bruce {
+	padding: 100px 0;
+}
 .td-cube {
 	width: $width;
 	height: $height;

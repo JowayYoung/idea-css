@@ -12,7 +12,6 @@
 	padding: 0;
 	background-color: #3c9;
 	filter: hue-rotate(var(--Θ));
-	transition: all 300ms;
 }
 .dynamic-bgcolor {
 	overflow: hidden;
@@ -21,7 +20,6 @@
 	height: 50px;
 	background-color: #66f;
 	box-shadow: 0 0 2px rgba(#000, .5);
-	filter: none !important;
 	cursor: pointer;
 	line-height: 50px;
 	font-weight: bold;

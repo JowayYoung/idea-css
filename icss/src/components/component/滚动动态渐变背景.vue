@@ -37,7 +37,6 @@
 		height: var(--size);
 		background-color: #3c9;
 		filter: hue-rotate(var(--Θ));
-		transition: all 100ms;
 		animation: rotate 5s linear infinite;
 	}
 	main {

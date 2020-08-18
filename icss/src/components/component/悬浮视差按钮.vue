@@ -1,10 +1,14 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="悬浮视差按钮">
+	<div ref="bg" class="bruce flex-ct-x" data-title="悬浮视差按钮">
 		<a ref="btn" class="parallax-btn" data-title="妙用CSS变量，让你的CSS变得更心动" @mousemove="move" @mouseup="up" @mousedown="down" @mouseleave="leave"></a>
 	</div>
 </template>
 
 <style lang="scss" scoped>
+.bruce {
+	transform: perspective(800px);
+	transform-style: preserve-3d;
+}
 .parallax-btn {
 	position: relative;
 	width: 400px;
@@ -47,26 +51,26 @@
 <script>
 export default {
 	mounted() {
-		this.btnStyle = this.$refs.btn.style;
+		this.bgStyle = this.$refs.bg.style;
 		this.btnRect = this.$refs.btn.getBoundingClientRect();
 	},
 	methods: {
 		down(e) {
-			this.btnStyle.setProperty("--tz", "-25px");
+			this.bgStyle.setProperty("--tz", "-25px");
 		},
 		leave(e) {
-			this.btnStyle.setProperty("--ty", "0");
-			this.btnStyle.setProperty("--rx", "0");
-			this.btnStyle.setProperty("--ry", "0");
+			this.bgStyle.setProperty("--ty", "0");
+			this.bgStyle.setProperty("--rx", "0");
+			this.bgStyle.setProperty("--ry", "0");
 		},
 		move(e) {
 			const dx = e.offsetX - this.btnRect.width / 2;
 			const dy = e.offsetY - this.btnRect.height / 2;
-			this.btnStyle.setProperty("--rx", `${dy / -1}deg`);
-			this.btnStyle.setProperty("--ry", `${dx / 10}deg`);
+			this.bgStyle.setProperty("--rx", `${dy / -1}deg`);
+			this.bgStyle.setProperty("--ry", `${dx / 10}deg`);
 		},
 		up() {
-			this.btnStyle.setProperty("--tz", "-12px");
+			this.bgStyle.setProperty("--tz", "-12px");
 		}
 	}
 };
