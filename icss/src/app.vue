@@ -65,6 +65,8 @@
 			<color8></color8>
 			<color9></color9>
 			<color10></color10>
+			<color11></color11>
+			<color12></color12>
 		</div>
 		<div class="content figure">
 			<figure1></figure1>
@@ -77,8 +79,6 @@
 			<figure8></figure8>
 			<figure9></figure9>
 			<figure10></figure10>
-			<figure11></figure11>
-			<figure12></figure12>
 		</div>
 		<div class="content component">
 			<component1></component1>
@@ -316,13 +316,15 @@ import Behavior17 from "./components/behavior/使用transform模拟视差滚动"
 import Color1 from "./components/color/使用@@selection改变选中颜色";
 import Color2 from "./components/color/使用@nth-child()描绘信号彩带";
 import Color3 from "./components/color/使用box-shadow描绘彩虹色带";
-import Color4 from "./components/color/使用filter开启暗黑模式";
-import Color5 from "./components/color/使用filter开启悼念模式";
-import Color6 from "./components/color/使用filter描绘动态背景";
-import Color7 from "./components/color/使用filter模拟Instagram滤镜";
-import Color8 from "./components/color/使用linear-gradient()控制背景渐变";
-import Color9 from "./components/color/使用linear-gradient()控制文本渐变";
-import Color10 from "./components/color/使用linear-gradient()控制文本闪烁";
+import Color4 from "./components/color/使用filter雕刻高斯模糊";
+import Color5 from "./components/color/使用filter开启暗黑模式";
+import Color6 from "./components/color/使用filter开启悼念模式";
+import Color7 from "./components/color/使用filter描绘彩色阴影";
+import Color8 from "./components/color/使用filter描绘动态背景";
+import Color9 from "./components/color/使用filter模拟Instagram滤镜";
+import Color10 from "./components/color/使用linear-gradient()控制背景渐变";
+import Color11 from "./components/color/使用linear-gradient()控制文本渐变";
+import Color12 from "./components/color/使用linear-gradient()控制文本闪烁";
 
 import Component1 from "./components/component/iOS开关按钮";
 import Component2 from "./components/component/标签导航";
@@ -362,14 +364,12 @@ import Figure1 from "./components/figure/使用box-shadow裁剪聚焦区域";
 import Figure2 from "./components/figure/使用box-shadow描绘单侧投影";
 import Figure3 from "./components/figure/使用clip-path描绘各种图形";
 import Figure4 from "./components/figure/使用conic-gradient()描绘彩色饼图";
-import Figure5 from "./components/figure/使用filter雕刻高斯模糊";
-import Figure6 from "./components/figure/使用filter描绘彩色阴影";
-import Figure7 from "./components/figure/使用linear-gradient()描绘波浪划线";
-import Figure8 from "./components/figure/使用linear-gradient()描绘方格背景";
-import Figure9 from "./components/figure/使用linear-gradient()描绘方格彩带";
-import Figure10 from "./components/figure/使用linear-gradient()描绘网格背景";
-import Figure11 from "./components/figure/使用mask雕刻镂空背景";
-import Figure12 from "./components/figure/使用outline描绘内部边框";
+import Figure5 from "./components/figure/使用linear-gradient()描绘波浪划线";
+import Figure6 from "./components/figure/使用linear-gradient()描绘方格背景";
+import Figure7 from "./components/figure/使用linear-gradient()描绘方格彩带";
+import Figure8 from "./components/figure/使用linear-gradient()描绘网格背景";
+import Figure9 from "./components/figure/使用mask雕刻镂空背景";
+import Figure10 from "./components/figure/使用outline描绘内部边框";
 
 import Layout1 from "./components/layout/使用@nth-child()选择指定元素";
 import Layout2 from "./components/layout/使用clip-path排版蜂窝布局";
@@ -413,6 +413,8 @@ export default {
 		Color8,
 		Color9,
 		Color10,
+		Color11,
+		Color12,
 		// 组件
 		Component1,
 		Component2,
@@ -458,8 +460,6 @@ export default {
 		Figure8,
 		Figure9,
 		Figure10,
-		Figure11,
-		Figure12,
 		// 布局
 		Layout1,
 		Layout2,

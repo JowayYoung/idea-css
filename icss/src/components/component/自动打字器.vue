@@ -11,8 +11,10 @@
 	width: #{$count + 1}ch;
 	font-family: Consolas, Monaco, monospace;
 	white-space: nowrap;
-	animation: typing #{$duration}s steps($count + 1) #{$delay}s backwards,
-		caret 500ms steps(1) #{$delay}s $duration * 2 forwards;
+	animation: typing #{$duration}s steps($count + 1) #{$delay}s infinite backwards,
+		caret 500ms steps(1) #{$delay}s infinite forwards;
+	// animation: typing #{$duration}s steps($count + 1) #{$delay}s backwards,
+	// 	caret 500ms steps(1) #{$delay}s $duration * 2 forwards;
 }
 .auto-typing {
 	font-weight: bold;
@@ -20,14 +22,14 @@
 	color: #09f;
 	@include typing(52, 5);
 }
-@keyframes typing {
-	from {
-		width: 0;
-	}
-}
 @keyframes caret {
 	50% {
 		border-right-color: currentColor;
+	}
+}
+@keyframes typing {
+	from {
+		width: 0;
 	}
 }
 </style>

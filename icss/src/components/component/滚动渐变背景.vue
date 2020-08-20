@@ -19,7 +19,7 @@
 	--scrolly: 250;
 	overflow: hidden;
 	position: relative;
-	border: 1px solid #ccc;
+	border: 1px solid #66f;
 	width: 400px;
 	height: 400px;
 	header {

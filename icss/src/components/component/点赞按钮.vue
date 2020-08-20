@@ -163,14 +163,6 @@ $duration: 500ms;
 		transform: scale(.5);
 	}
 }
-@keyframes ripple-out {
-	from {
-		transform: scale(0);
-	}
-	to {
-		transform: scale(5);
-	}
-}
 @keyframes heart-bounce {
 	0%,
 	80%,
@@ -195,6 +187,14 @@ $duration: 500ms;
 	}
 	100% {
 		transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(1em) scale(0);
+	}
+}
+@keyframes ripple-out {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(5);
 	}
 }
 </style>

@@ -2,7 +2,7 @@
 	<div class="bruce flex-ct-x" data-title="心形加载条">
 		<div class="heart-loading flex-ct-x">
 			<ul style="--line-count: 9">
-				<li v-for="v in 9" :key="v" :class="`line-${v + 1}`" :style="`--line-index: ${v}`"></li>
+				<li v-for="v in 9" :key="v" :class="`line-${v}`" :style="`--line-index: ${v}`"></li>
 			</ul>
 		</div>
 	</div>
@@ -31,26 +31,26 @@
 		animation-iteration-count: infinite;
 		&.line-1,
 		&.line-9 {
-			animation-name: line-move-1;
+			animation-name: beat-1;
 		}
 		&.line-2,
 		&.line-8 {
-			animation-name: line-move-2;
+			animation-name: beat-2;
 		}
 		&.line-3,
 		&.line-7 {
-			animation-name: line-move-3;
+			animation-name: beat-3;
 		}
 		&.line-4,
 		&.line-6 {
-			animation-name: line-move-4;
+			animation-name: beat-4;
 		}
 		&.line-5 {
-			animation-name: line-move-5;
+			animation-name: beat-5;
 		}
 	}
 }
-@keyframes line-move-1 {
+@keyframes beat-1 {
 	0%,
 	10%,
 	90%,
@@ -63,7 +63,7 @@
 		transform: translate3d(0, -15px, 0);
 	}
 }
-@keyframes line-move-2 {
+@keyframes beat-2 {
 	0%,
 	10%,
 	90%,
@@ -76,7 +76,7 @@
 		transform: translate3d(0, -30px, 0);
 	}
 }
-@keyframes line-move-3 {
+@keyframes beat-3 {
 	0%,
 	10%,
 	90%,
@@ -89,7 +89,7 @@
 		transform: translate3d(0, -40px, 0);
 	}
 }
-@keyframes line-move-4 {
+@keyframes beat-4 {
 	0%,
 	10%,
 	90%,
@@ -102,7 +102,7 @@
 		transform: translate3d(0, -30px, 0);
 	}
 }
-@keyframes line-move-5 {
+@keyframes beat-5 {
 	0%,
 	10%,
 	90%,
