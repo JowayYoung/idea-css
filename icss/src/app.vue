@@ -374,7 +374,7 @@ import Layout4 from "./components/layout/使用margin排版凸显布局";
 import Layout5 from "./components/layout/使用overflow-x排版横向列表";
 import Layout6 from "./components/layout/使用text-overflow控制文本溢出";
 import Layout7 from "./components/layout/使用transform翻转容器内容";
-import Layout8 from "./components/layout/使用transform描绘1px边框";
+import Layout8 from "./components/layout/使用transform描绘像素边框";
 import Layout9 from "./components/layout/使用writing-mode排版竖向文本";
 
 export default {

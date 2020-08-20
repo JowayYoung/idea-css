@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-y" data-title="使用transform描绘1px边框">
+	<div class="bruce flex-ct-y" data-title="使用transform描绘像素边框">
 		<div class="onepx-border normal">1px</div>
 		<div class="onepx-border thin">0.5px</div>
 	</div>
