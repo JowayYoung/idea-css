@@ -301,7 +301,7 @@ import Behavior5 from "./components/behavior/使用@not()去除无用属性";
 import Behavior6 from "./components/behavior/使用@valid和@invalid校验输入表单";
 import Behavior7 from "./components/behavior/使用+或~美化选项表单";
 import Behavior8 from "./components/behavior/使用+或~选择指定元素";
-import Behavior9 from "./components/behavior/使用animation-delay保留动画起始帧";
+import Behavior9 from "./components/behavior/使用animation-delay保留动画首帧";
 import Behavior10 from "./components/behavior/使用attr()抓取用户属性";
 import Behavior11 from "./components/behavior/使用max-height切换自动高度";
 import Behavior12 from "./components/behavior/使用object-fit规定图像尺寸";
@@ -370,12 +370,12 @@ import Figure12 from "./components/figure/使用outline描绘内部边框";
 import Layout1 from "./components/layout/使用@nth-child()选择指定元素";
 import Layout2 from "./components/layout/使用clip-path排版蜂窝布局";
 import Layout3 from "./components/layout/使用letter-spacing排版倒序文本";
-import Layout4 from "./components/layout/使用margin-left排版左重右轻列表";
+import Layout4 from "./components/layout/使用margin排版凸显布局";
 import Layout5 from "./components/layout/使用overflow-x排版横向列表";
 import Layout6 from "./components/layout/使用text-overflow控制文本溢出";
-import Layout7 from "./components/layout/使用transform翻转内容";
+import Layout7 from "./components/layout/使用transform翻转容器内容";
 import Layout8 from "./components/layout/使用transform描绘1px边框";
-import Layout9 from "./components/layout/使用writing-mode排版竖文";
+import Layout9 from "./components/layout/使用writing-mode排版竖向文本";
 
 export default {
 	name: "app",

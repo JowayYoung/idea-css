@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用transform翻转内容">
+	<div class="bruce flex-ct-x" data-title="使用transform翻转容器内容">
 		<ul class="flip-content">
 			<li>正常文本</li>
 			<li class="x-axis">水平翻转</li>

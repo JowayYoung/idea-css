@@ -4,7 +4,7 @@
 		<input id="b" type="checkbox" hidden>
 		<input id="c" type="checkbox" hidden>
 		<input id="d" type="checkbox" hidden>
-		<div class="cellular-layout tac" style="--count: 16">
+		<div class="cellular-layout" style="--count: 16">
 			<label for="a" style="--index: 0">我</label>
 			<label class="a" style="--index: 1">武</label>
 			<label class="a" style="--index: 2">惟</label>
@@ -35,6 +35,7 @@
 	justify-content: center;
 	margin-top: -50px;
 	width: 400px;
+	text-align: center;
 	label {
 		--Θ: calc(var(--index) / var(--count) * 1turn);
 		margin-left: -15px;
