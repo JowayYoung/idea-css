@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="标签页">
+	<div class="bruce flex-ct-x" data-title="标签选框">
 		<div class="tab-page">
 			<nav>
 				<h3>

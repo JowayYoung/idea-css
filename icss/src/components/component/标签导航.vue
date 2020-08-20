@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="标签导航栏">
+	<div class="bruce flex-ct-x" data-title="标签导航">
 		<div class="tab-navbar">
 			<input id="tab1" type="radio" name="tabs" hidden checked>
 			<input id="tab2" type="radio" name="tabs" hidden>

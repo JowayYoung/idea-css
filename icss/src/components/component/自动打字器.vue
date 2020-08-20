@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="自动打字">
+	<div class="bruce flex-ct-x" data-title="自动打字器">
 		<div class="auto-typing">Do You Want To Know More About CSS Development Skill</div>
 	</div>
 </template>

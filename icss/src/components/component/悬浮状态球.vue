@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="状态悬浮球">
+	<div class="bruce flex-ct-x" data-title="悬浮状态球">
 		<div class="state-ball warning">
 			<div class="wave"></div>
 		</div>

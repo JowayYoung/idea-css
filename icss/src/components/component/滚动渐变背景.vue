@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="滚动动态渐变背景">
+	<div class="bruce flex-ct-x" data-title="滚动渐变背景">
 		<div ref="bg" class="dynamic-bg">
 			<header></header>
 			<main @scroll="scroll">

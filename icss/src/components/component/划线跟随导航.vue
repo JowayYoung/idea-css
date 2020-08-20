@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="下划线跟随导航栏">
+	<div class="bruce flex-ct-x" data-title="划线跟随导航">
 		<ul class="underline-navbar">
 			<li>Alibaba阿里巴巴</li>
 			<li>Tencent腾讯</li>
