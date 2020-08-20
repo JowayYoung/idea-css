@@ -33,7 +33,6 @@
 			<layout6></layout6>
 			<layout7></layout7>
 			<layout8></layout8>
-			<layout9></layout9>
 		</div>
 		<div class="content behavior">
 			<behavior1></behavior1>
@@ -53,6 +52,7 @@
 			<behavior15></behavior15>
 			<behavior16></behavior16>
 			<behavior17></behavior17>
+			<behavior18></behavior18>
 		</div>
 		<div class="content color">
 			<color1></color1>
@@ -300,18 +300,19 @@ import Behavior2 from "./components/behavior/使用@focus-within分发冒泡响�
 import Behavior3 from "./components/behavior/使用@hover定制悬浮提示";
 import Behavior4 from "./components/behavior/使用@hover描绘鼠标跟随";
 import Behavior5 from "./components/behavior/使用@not()去除无用属性";
-import Behavior6 from "./components/behavior/使用@valid和@invalid校验输入表单";
-import Behavior7 from "./components/behavior/使用+或~美化选项表单";
-import Behavior8 from "./components/behavior/使用+或~选择指定元素";
-import Behavior9 from "./components/behavior/使用animation-delay保留动画首帧";
-import Behavior10 from "./components/behavior/使用attr()抓取用户属性";
-import Behavior11 from "./components/behavior/使用content提升反爬效果";
-import Behavior12 from "./components/behavior/使用max-height切换自动高度";
-import Behavior13 from "./components/behavior/使用object-fit规定图像尺寸";
-import Behavior14 from "./components/behavior/使用pointer-events禁用事件触发";
-import Behavior15 from "./components/behavior/使用resize拉伸多列分栏";
-import Behavior16 from "./components/behavior/使用text-align-last对齐两端文本";
-import Behavior17 from "./components/behavior/使用transform模拟视差滚动";
+import Behavior6 from "./components/behavior/使用@nth-child()选择指定元素";
+import Behavior7 from "./components/behavior/使用@valid和@invalid校验输入表单";
+import Behavior8 from "./components/behavior/使用+或~美化选项表单";
+import Behavior9 from "./components/behavior/使用+或~选择指定元素";
+import Behavior10 from "./components/behavior/使用animation-delay保留动画首帧";
+import Behavior11 from "./components/behavior/使用attr()抓取用户属性";
+import Behavior12 from "./components/behavior/使用content提升反爬效果";
+import Behavior13 from "./components/behavior/使用max-height切换自动高度";
+import Behavior14 from "./components/behavior/使用object-fit规定图像尺寸";
+import Behavior15 from "./components/behavior/使用pointer-events禁用事件触发";
+import Behavior16 from "./components/behavior/使用resize拉伸多列分栏";
+import Behavior17 from "./components/behavior/使用text-align-last对齐两端文本";
+import Behavior18 from "./components/behavior/使用transform模拟视差滚动";
 
 import Color1 from "./components/color/使用@@selection改变选中颜色";
 import Color2 from "./components/color/使用@nth-child()描绘信号彩带";
@@ -371,15 +372,14 @@ import Figure8 from "./components/figure/使用linear-gradient()描绘网格背�
 import Figure9 from "./components/figure/使用mask雕刻镂空背景";
 import Figure10 from "./components/figure/使用outline描绘内部边框";
 
-import Layout1 from "./components/layout/使用@nth-child()选择指定元素";
-import Layout2 from "./components/layout/使用clip-path排版蜂窝布局";
-import Layout3 from "./components/layout/使用letter-spacing排版倒序文本";
-import Layout4 from "./components/layout/使用margin排版凸显布局";
-import Layout5 from "./components/layout/使用overflow-x排版横向列表";
-import Layout6 from "./components/layout/使用text-overflow控制文本溢出";
-import Layout7 from "./components/layout/使用transform翻转容器内容";
-import Layout8 from "./components/layout/使用transform描绘像素边框";
-import Layout9 from "./components/layout/使用writing-mode排版竖向文本";
+import Layout1 from "./components/layout/使用clip-path排版蜂窝布局";
+import Layout2 from "./components/layout/使用letter-spacing排版倒序文本";
+import Layout3 from "./components/layout/使用margin排版凸显布局";
+import Layout4 from "./components/layout/使用overflow-x排版横向列表";
+import Layout5 from "./components/layout/使用text-overflow控制文本溢出";
+import Layout6 from "./components/layout/使用transform翻转容器内容";
+import Layout7 from "./components/layout/使用transform描绘像素边框";
+import Layout8 from "./components/layout/使用writing-mode排版竖向文本";
 
 export default {
 	name: "app",
@@ -402,6 +402,7 @@ export default {
 		Behavior15,
 		Behavior16,
 		Behavior17,
+		Behavior18,
 		// 色彩
 		Color1,
 		Color2,
@@ -468,8 +469,7 @@ export default {
 		Layout5,
 		Layout6,
 		Layout7,
-		Layout8,
-		Layout9
+		Layout8
 	},
 	data() {
 		return {
