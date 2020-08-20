@@ -1,12 +1,12 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="使用:hover定制悬浮提示">
 		<ul class="hover-tips">
-			<li data-title="姨妈红"></li>
-			<li data-title="基佬紫"></li>
-			<li data-title="箩底橙"></li>
-			<li data-title="姣婆蓝"></li>
-			<li data-title="大粪青"></li>
-			<li data-title="原谅绿"></li>
+			<li data-name="姨妈红"></li>
+			<li data-name="基佬紫"></li>
+			<li data-name="箩底橙"></li>
+			<li data-name="姣婆蓝"></li>
+			<li data-name="大粪青"></li>
+			<li data-name="原谅绿"></li>
 		</ul>
 	</div>
 </template>
@@ -45,7 +45,7 @@ $color-list: #f66 #66f #f90 #09f #9c3 #3c9;
 			line-height: 30px;
 			text-align: center;
 			color: #fff;
-			content: attr(data-title);
+			content: attr(data-name);
 		}
 		&::after {
 			margin-left: -6px;

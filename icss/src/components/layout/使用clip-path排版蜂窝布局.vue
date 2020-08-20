@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data="使用clip-path排版蜂窝布局">
+	<div class="bruce flex-ct-x" data-title="使用clip-path排版蜂窝布局">
 		<input id="a" type="checkbox" hidden>
 		<input id="b" type="checkbox" hidden>
 		<input id="c" type="checkbox" hidden>

@@ -1,6 +1,6 @@
 <template>
 	<div ref="bg" class="bruce flex-ct-x" data-title="悬浮视差按钮">
-		<a ref="btn" class="parallax-btn" data-title="妙用CSS变量，让你的CSS变得更心动" @mousemove="move" @mouseup="up" @mousedown="down" @mouseleave="leave"></a>
+		<a ref="btn" class="parallax-btn" data-name="妙用CSS变量，让你的CSS变得更心动" @mousemove="move" @mouseup="up" @mousedown="down" @mouseleave="leave"></a>
 	</div>
 </template>
 
@@ -37,7 +37,7 @@
 		display: inline-block;
 		position: relative;
 		font-weight: bold;
-		content: attr(data-title);
+		content: attr(data-name);
 		will-change: transform;
 		transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
 		transition: transform 200ms ease;
