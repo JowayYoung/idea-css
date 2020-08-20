@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用:nth-child()绘制信号彩带">
+	<div class="bruce flex-ct-x" data-title="使用:nth-child()描绘信号彩带">
 		<ul class="signal-bar" style="--line-count: 5">
 			<li v-for="v in 5" :key="v" :style="`--line-index: ${v}`">
 				<em></em>

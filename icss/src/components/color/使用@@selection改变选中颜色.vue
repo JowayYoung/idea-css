@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用::selection改变文本选择颜色">
+	<div class="bruce flex-ct-x" data-title="使用::selection改变选中颜色">
 		<div class="select-color">
 			<p>全局选择文字颜色</p>
 			<p>全局选择文字颜色</p>

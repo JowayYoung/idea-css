@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用box-shadow绘制彩虹色带">
+	<div class="bruce flex-ct-x" data-title="使用box-shadow描绘彩虹色带">
 		<div class="rainbow-bar bar-1"></div>
 		<div class="rainbow-bar bar-2"></div>
 	</div>

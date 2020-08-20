@@ -1,6 +1,6 @@
 <template>
-	<div ref="bg" class="bruce flex-ct-x" data-title="使用filter绘制动态背景颜色">
-		<a class="dynamic-bgcolor" @mousemove="move"></a>
+	<div ref="bg" class="bruce flex-ct-x" data-title="使用filter描绘动态背景">
+		<a class="dynamic-bg" @mousemove="move"></a>
 	</div>
 </template>
 
@@ -13,7 +13,7 @@
 	background-color: #3c9;
 	filter: hue-rotate(var(--Θ));
 }
-.dynamic-bgcolor {
+.dynamic-bg {
 	overflow: hidden;
 	border-radius: 25px;
 	width: calc(var(--width) * 1px);

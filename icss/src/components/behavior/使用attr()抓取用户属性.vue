@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-y" data-title="使用attr()抓取data-*">
+	<div class="bruce flex-ct-y" data-title="使用attr()抓取用户属性">
 		<a class="hover-tips" href="https://www.baidu.com" data-msg="Hello World">提示框</a>
 		<a class="hover-tips" href="https://www.baidu.com"></a>
 	</div>

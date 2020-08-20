@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用resize拉伸分栏">
+	<div class="bruce flex-ct-x" data-title="使用resize拉伸多列分栏">
 		<div class="stretching-column">
 			<div class="left">
 				<div class="resize-bar"></div>

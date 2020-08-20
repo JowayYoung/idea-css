@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用+或~美化选项框">
+	<div class="bruce flex-ct-x" data-title="使用+或~美化选项表单">
 		<ul class="beauty-selection">
 			<li>
 				<input id="fed-engineer" type="radio" name="radioName" hidden>

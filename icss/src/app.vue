@@ -293,28 +293,28 @@
 </style>
 
 <script>
-import Behavior1 from "./components/behavior/使用@empty监听列表清空状态";
+import Behavior1 from "./components/behavior/使用@empty监听清空状态";
 import Behavior2 from "./components/behavior/使用@focus-within分发冒泡响应";
 import Behavior3 from "./components/behavior/使用@hover定制悬浮提示";
 import Behavior4 from "./components/behavior/使用@hover描绘鼠标跟随";
 import Behavior5 from "./components/behavior/使用@not()去除无用属性";
-import Behavior6 from "./components/behavior/使用@valid和@invalid校验表单";
-import Behavior7 from "./components/behavior/使用+或~美化选项框";
+import Behavior6 from "./components/behavior/使用@valid和@invalid校验输入表单";
+import Behavior7 from "./components/behavior/使用+或~美化选项表单";
 import Behavior8 from "./components/behavior/使用+或~选择指定元素";
 import Behavior9 from "./components/behavior/使用animation-delay保留动画起始帧";
-import Behavior10 from "./components/behavior/使用attr()抓取data-@";
+import Behavior10 from "./components/behavior/使用attr()抓取用户属性";
 import Behavior11 from "./components/behavior/使用max-height切换自动高度";
 import Behavior12 from "./components/behavior/使用object-fit规定图像尺寸";
 import Behavior13 from "./components/behavior/使用pointer-events禁用事件触发";
-import Behavior14 from "./components/behavior/使用resize拉伸分栏";
+import Behavior14 from "./components/behavior/使用resize拉伸多列分栏";
 import Behavior15 from "./components/behavior/使用text-align-last对齐两端文本";
 import Behavior16 from "./components/behavior/使用transform模拟视差滚动";
 
-import Color1 from "./components/color/使用@@selection改变文本选择颜色";
-import Color2 from "./components/color/使用@nth-child()绘制信号彩带";
-import Color3 from "./components/color/使用box-shadow绘制彩虹色带";
-import Color4 from "./components/color/使用filter绘制动态背景颜色";
-import Color5 from "./components/color/使用filter开启网站悼念模式";
+import Color1 from "./components/color/使用@@selection改变选中颜色";
+import Color2 from "./components/color/使用@nth-child()描绘信号彩带";
+import Color3 from "./components/color/使用box-shadow描绘彩虹色带";
+import Color4 from "./components/color/使用filter开启悼念模式";
+import Color5 from "./components/color/使用filter描绘动态背景";
 import Color6 from "./components/color/使用filter模拟Instagram滤镜";
 import Color7 from "./components/color/使用linear-gradient控制背景渐变";
 import Color8 from "./components/color/使用linear-gradient控制文本渐变";
