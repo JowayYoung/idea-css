@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用filter雕刻毛玻璃效果">
+	<div class="bruce flex-ct-x" data-title="使用filter雕刻高斯模糊">
 		<div class="glass-layer">
 			<p>我见犹怜</p>
 			<p>爱不释手</p>

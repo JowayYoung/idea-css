@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用filter描绘头像彩色阴影">
+	<div class="bruce flex-ct-x" data-title="使用filter描绘彩色阴影">
 		<div class="avatar-shadow"></div>
 	</div>
 </template>

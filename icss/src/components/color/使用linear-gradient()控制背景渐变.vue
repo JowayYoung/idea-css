@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce" data-title="使用linear-gradient控制背景渐变">
+	<div class="bruce" data-title="使用linear-gradient()控制背景渐变">
 		<div class="gradient-bg">iCSS</div>
 	</div>
 </template>

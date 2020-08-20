@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用conic-gradient描绘饼图">
+	<div class="bruce flex-ct-x" data-title="使用conic-gradient()描绘彩色饼图">
 		<div class="pie-chart"></div>
 	</div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用linear-gradient描绘波浪线">
+	<div class="bruce flex-ct-x" data-title="使用linear-gradient()描绘波浪划线">
 		<p class="waveline-text">波浪线文字</p>
 	</div>
 </template>

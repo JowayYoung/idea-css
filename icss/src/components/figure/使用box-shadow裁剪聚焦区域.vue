@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用box-shadow裁剪图像">
+	<div class="bruce flex-ct-x" data-title="使用box-shadow裁剪聚焦区域">
 		<div class="img-cliper">
 			<img src="https://static.yangzw.vip/codepen/gz.jpg">
 			<i></i>

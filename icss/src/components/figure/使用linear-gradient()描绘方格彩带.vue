@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用linear-gradient描绘彩带">
+	<div class="bruce flex-ct-x" data-title="使用linear-gradient()描绘方格彩带">
 		<div class="colour-bar"></div>
 	</div>
 </template>

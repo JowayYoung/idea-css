@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用linear-gradient描绘方格背景">
+	<div class="bruce flex-ct-x" data-title="使用linear-gradient()描绘方格背景">
 		<div class="square-bg"></div>
 	</div>
 </template>

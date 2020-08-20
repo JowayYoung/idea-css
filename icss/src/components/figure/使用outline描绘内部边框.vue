@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用outline描绘内边框">
+	<div class="bruce flex-ct-x" data-title="使用outline描绘内部边框">
 		<div class="outside-border"></div>
 	</div>
 </template>
