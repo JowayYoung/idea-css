@@ -53,6 +53,7 @@
 			<behavior16></behavior16>
 			<behavior17></behavior17>
 			<behavior18></behavior18>
+			<behavior19></behavior19>
 		</div>
 		<div class="content color">
 			<color1></color1>
@@ -310,9 +311,10 @@ import Behavior12 from "./components/behavior/使用content提升反爬效果";
 import Behavior13 from "./components/behavior/使用max-height切换自动高度";
 import Behavior14 from "./components/behavior/使用object-fit规定图像尺寸";
 import Behavior15 from "./components/behavior/使用pointer-events禁用事件触发";
-import Behavior16 from "./components/behavior/使用resize拉伸多列分栏";
-import Behavior17 from "./components/behavior/使用text-align-last对齐两端文本";
-import Behavior18 from "./components/behavior/使用transform模拟视差滚动";
+import Behavior16 from "./components/behavior/使用position控制吸附位置";
+import Behavior17 from "./components/behavior/使用resize拉伸多列分栏";
+import Behavior18 from "./components/behavior/使用text-align-last对齐两端文本";
+import Behavior19 from "./components/behavior/使用transform模拟视差滚动";
 
 import Color1 from "./components/color/使用@@selection改变选中颜色";
 import Color2 from "./components/color/使用@nth-child()描绘信号彩带";
@@ -403,6 +405,7 @@ export default {
 		Behavior16,
 		Behavior17,
 		Behavior18,
+		Behavior19,
 		// 色彩
 		Color1,
 		Color2,
