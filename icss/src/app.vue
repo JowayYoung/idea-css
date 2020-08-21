@@ -54,6 +54,7 @@
 			<behavior17></behavior17>
 			<behavior18></behavior18>
 			<behavior19></behavior19>
+			<behavior20></behavior20>
 		</div>
 		<div class="content color">
 			<color1></color1>
@@ -306,15 +307,16 @@ import Behavior7 from "./components/behavior/使用@valid和@invalid校验输入
 import Behavior8 from "./components/behavior/使用+或~美化选项表单";
 import Behavior9 from "./components/behavior/使用+或~选择指定元素";
 import Behavior10 from "./components/behavior/使用animation-delay保留动画首帧";
-import Behavior11 from "./components/behavior/使用attr()抓取用户属性";
-import Behavior12 from "./components/behavior/使用content提升反爬效果";
-import Behavior13 from "./components/behavior/使用max-height切换自动高度";
-import Behavior14 from "./components/behavior/使用object-fit规定图像尺寸";
-import Behavior15 from "./components/behavior/使用pointer-events禁用事件触发";
-import Behavior16 from "./components/behavior/使用position控制吸附位置";
-import Behavior17 from "./components/behavior/使用resize拉伸多列分栏";
-import Behavior18 from "./components/behavior/使用text-align-last对齐两端文本";
-import Behavior19 from "./components/behavior/使用transform模拟视差滚动";
+import Behavior11 from "./components/behavior/使用attr()控制文本切换";
+import Behavior12 from "./components/behavior/使用attr()抓取用户属性";
+import Behavior13 from "./components/behavior/使用content提升反爬效果";
+import Behavior14 from "./components/behavior/使用max-height切换自动高度";
+import Behavior15 from "./components/behavior/使用object-fit规定图像尺寸";
+import Behavior16 from "./components/behavior/使用pointer-events禁用事件触发";
+import Behavior17 from "./components/behavior/使用position控制吸附位置";
+import Behavior18 from "./components/behavior/使用resize拉伸多列分栏";
+import Behavior19 from "./components/behavior/使用text-align-last对齐两端文本";
+import Behavior20 from "./components/behavior/使用transform模拟视差滚动";
 
 import Color1 from "./components/color/使用@@selection改变选中颜色";
 import Color2 from "./components/color/使用@nth-child()描绘信号彩带";
@@ -406,6 +408,7 @@ export default {
 		Behavior17,
 		Behavior18,
 		Behavior19,
+		Behavior20,
 		// 色彩
 		Color1,
 		Color2,
