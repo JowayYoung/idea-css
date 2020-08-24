@@ -1,6 +1,6 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="心形加载条">
-		<div class="heart-loading flex-ct-x">
+		<div class="heart-loading">
 			<ul style="--line-count: 9">
 				<li v-for="v in 9" :key="v" :class="`line-${v}`" :style="`--line-index: ${v}`"></li>
 			</ul>
@@ -10,6 +10,9 @@
 
 <style lang="scss" scoped>
 .heart-loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 200px;
 	height: 200px;
 	ul {

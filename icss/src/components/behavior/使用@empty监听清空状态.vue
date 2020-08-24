@@ -1,7 +1,7 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="使用:empty监听清空状态">
 		<ul class="empty-list">
-			<li v-for="v in 10" :key="v">Data {{v + 1}}</li>
+			<li v-for="v in 10" :key="v">Data {{v}}</li>
 		</ul>
 		<ul class="empty-list"></ul>
 	</div>
