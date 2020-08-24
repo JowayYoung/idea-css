@@ -308,7 +308,7 @@ import Behavior8 from "./components/behavior/使用+或~美化选项表单";
 import Behavior9 from "./components/behavior/使用+或~选择指定元素";
 import Behavior10 from "./components/behavior/使用animation-delay保留动画首帧";
 import Behavior11 from "./components/behavior/使用attr()控制文本切换";
-import Behavior12 from "./components/behavior/使用attr()抓取用户属性";
+import Behavior12 from "./components/behavior/使用attr()抓取节点属性";
 import Behavior13 from "./components/behavior/使用content提升反爬效果";
 import Behavior14 from "./components/behavior/使用max-height切换自动高度";
 import Behavior15 from "./components/behavior/使用object-fit规定图像尺寸";
