@@ -1,6 +1,6 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="条形加载条">
-		<ul class="strip-loading flex-ct-x">
+		<ul class="strip-loading">
 			<li v-for="v in 6" :key="v" :style="`--line-index: ${v}`"></li>
 		</ul>
 	</div>
@@ -8,6 +8,9 @@
 
 <style lang="scss" scoped>
 .strip-loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 200px;
 	height: 200px;
 	li {
