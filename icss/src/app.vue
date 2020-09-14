@@ -33,6 +33,7 @@
 			<layout6></layout6>
 			<layout7></layout7>
 			<layout8></layout8>
+			<layout9></layout9>
 		</div>
 		<div class="content behavior">
 			<behavior1></behavior1>
@@ -81,6 +82,7 @@
 			<figure8></figure8>
 			<figure9></figure9>
 			<figure10></figure10>
+			<figure11></figure11>
 		</div>
 		<div class="content component">
 			<component1></component1>
@@ -375,15 +377,17 @@ import Figure7 from "./components/figure/使用linear-gradient()描绘方格彩�
 import Figure8 from "./components/figure/使用linear-gradient()描绘网格背景";
 import Figure9 from "./components/figure/使用mask雕刻镂空背景";
 import Figure10 from "./components/figure/使用outline描绘内部边框";
+import Figure11 from "./components/figure/使用transform描绘动感心形";
 
 import Layout1 from "./components/layout/使用clip-path排版蜂窝布局";
-import Layout2 from "./components/layout/使用letter-spacing排版倒序文本";
-import Layout3 from "./components/layout/使用margin排版凸显布局";
-import Layout4 from "./components/layout/使用overflow-x排版横向列表";
-import Layout5 from "./components/layout/使用text-overflow控制文本溢出";
-import Layout6 from "./components/layout/使用transform翻转容器内容";
-import Layout7 from "./components/layout/使用transform描绘像素边框";
-import Layout8 from "./components/layout/使用writing-mode排版竖向文本";
+import Layout2 from "./components/layout/使用flexbox排版各种布局";
+import Layout3 from "./components/layout/使用letter-spacing排版倒序文本";
+import Layout4 from "./components/layout/使用margin排版凸显布局";
+import Layout5 from "./components/layout/使用overflow-x排版横向列表";
+import Layout6 from "./components/layout/使用text-overflow控制文本溢出";
+import Layout7 from "./components/layout/使用transform翻转容器内容";
+import Layout8 from "./components/layout/使用transform描绘像素边框";
+import Layout9 from "./components/layout/使用writing-mode排版竖向文本";
 
 export default {
 	name: "app",
@@ -467,6 +471,7 @@ export default {
 		Figure8,
 		Figure9,
 		Figure10,
+		Figure11,
 		// 布局
 		Layout1,
 		Layout2,
@@ -475,7 +480,8 @@ export default {
 		Layout5,
 		Layout6,
 		Layout7,
-		Layout8
+		Layout8,
+		Layout9
 	},
 	data() {
 		return {

@@ -40,7 +40,7 @@
 		margin-top: 10px;
 	}
 	ul {
-		overflow-x: scroll;
+		overflow-x: auto;
 		cursor: pointer;
 		&::-webkit-scrollbar {
 			height: 10px;
@@ -55,15 +55,14 @@
 	}
 	li {
 		overflow: hidden;
-		margin-left: 10px;
 		height: 90px;
 		background-color: #66f;
 		line-height: 90px;
 		text-align: center;
 		font-size: 16px;
 		color: #fff;
-		&:first-child {
-			margin-left: 0;
+		& + li {
+			margin-left: 10px;
 		}
 	}
 	&.flex {
