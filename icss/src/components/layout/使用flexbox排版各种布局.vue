@@ -1,6 +1,6 @@
 <template>
-	<div class="bruce flex-ct-x">
-		<div class="layout-box" data-title="使用flexbox排版各种布局">
+	<div class="bruce flex-ct-x" data-title="使用flexbox排版各种布局">
+		<div class="layout-box">
 			<div class="fullscreen-layout" title="全屏布局">
 				<header></header>
 				<main></main>
