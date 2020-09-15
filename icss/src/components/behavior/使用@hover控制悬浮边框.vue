@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="悬浮边框按钮">
+	<div class="bruce flex-ct-x" data-title="使用:hover控制悬浮边框">
 		<div class="dynamic-border">iCSS</div>
 	</div>
 </template>

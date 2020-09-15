@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="蛇形边框">
+	<div class="bruce flex-ct-x" data-title="使用clip描绘蛇形边框">
 		<div class="snakelike-border"></div>
 	</div>
 </template>

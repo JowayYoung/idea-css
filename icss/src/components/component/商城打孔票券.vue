@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="商城票券">
+	<div class="bruce flex-ct-x" data-title="商城打孔票券">
 		<div class="mall-ticket">
 			<h3>100元</h3>
 			<p>网易考拉代金券</p>

@@ -57,6 +57,7 @@
 			<behavior18></behavior18>
 			<behavior19></behavior19>
 			<behavior20></behavior20>
+			<behavior21></behavior21>
 		</div>
 		<div class="content color">
 			<color1></color1>
@@ -84,6 +85,7 @@
 			<figure9></figure9>
 			<figure10></figure10>
 			<figure11></figure11>
+			<figure12></figure12>
 		</div>
 		<div class="content component">
 			<component1></component1>
@@ -117,8 +119,6 @@
 			<component29></component29>
 			<component30></component30>
 			<component31></component31>
-			<component32></component32>
-			<component33></component33>
 		</div>
 	</div>
 </template>
@@ -303,23 +303,24 @@
 import Behavior1 from "./components/behavior/使用@empty监听清空状态";
 import Behavior2 from "./components/behavior/使用@focus-within分发冒泡响应";
 import Behavior3 from "./components/behavior/使用@hover定制悬浮提示";
-import Behavior4 from "./components/behavior/使用@hover描绘鼠标跟随";
-import Behavior5 from "./components/behavior/使用@not()去除无用属性";
-import Behavior6 from "./components/behavior/使用@nth-child()选择指定元素";
-import Behavior7 from "./components/behavior/使用@valid和@invalid校验表单内容";
-import Behavior8 from "./components/behavior/使用+或~美化选项表单";
-import Behavior9 from "./components/behavior/使用+或~选择指定元素";
-import Behavior10 from "./components/behavior/使用animation-delay保留动画首帧";
-import Behavior11 from "./components/behavior/使用attr()控制文本切换";
-import Behavior12 from "./components/behavior/使用attr()抓取节点属性";
-import Behavior13 from "./components/behavior/使用content提升反爬效果";
-import Behavior14 from "./components/behavior/使用max-height切换自动高度";
-import Behavior15 from "./components/behavior/使用object-fit规定图像尺寸";
-import Behavior16 from "./components/behavior/使用pointer-events禁用事件触发";
-import Behavior17 from "./components/behavior/使用position控制吸附位置";
-import Behavior18 from "./components/behavior/使用resize拉伸多列分栏";
-import Behavior19 from "./components/behavior/使用text-align-last对齐两端文本";
-import Behavior20 from "./components/behavior/使用transform模拟视差滚动";
+import Behavior4 from "./components/behavior/使用@hover控制悬浮边框";
+import Behavior5 from "./components/behavior/使用@hover描绘鼠标跟随";
+import Behavior6 from "./components/behavior/使用@not()去除无用属性";
+import Behavior7 from "./components/behavior/使用@nth-child()选择指定元素";
+import Behavior8 from "./components/behavior/使用@valid和@invalid校验表单内容";
+import Behavior9 from "./components/behavior/使用+或~美化选项表单";
+import Behavior10 from "./components/behavior/使用+或~选择指定元素";
+import Behavior11 from "./components/behavior/使用animation-delay保留动画首帧";
+import Behavior12 from "./components/behavior/使用attr()控制文本切换";
+import Behavior13 from "./components/behavior/使用attr()抓取节点属性";
+import Behavior14 from "./components/behavior/使用content提升反爬效果";
+import Behavior15 from "./components/behavior/使用max-height切换自动高度";
+import Behavior16 from "./components/behavior/使用object-fit规定图像尺寸";
+import Behavior17 from "./components/behavior/使用pointer-events禁用事件触发";
+import Behavior18 from "./components/behavior/使用position控制吸附位置";
+import Behavior19 from "./components/behavior/使用resize拉伸多列分栏";
+import Behavior20 from "./components/behavior/使用text-align-last对齐两端文本";
+import Behavior21 from "./components/behavior/使用transform模拟视差滚动";
 
 import Color1 from "./components/color/使用@@selection改变选中颜色";
 import Color2 from "./components/color/使用@nth-child()描绘信号彩带";
@@ -351,34 +352,33 @@ import Component14 from "./components/component/立体按钮";
 import Component15 from "./components/component/螺纹进度条";
 import Component16 from "./components/component/气泡背景墙";
 import Component17 from "./components/component/三维立方体";
-import Component18 from "./components/component/商城票券";
-import Component19 from "./components/component/蛇形边框";
-import Component20 from "./components/component/条形加载条";
-import Component21 from "./components/component/图像换色器";
-import Component22 from "./components/component/心形加载条";
-import Component23 from "./components/component/星级评分";
-import Component24 from "./components/component/悬浮边框按钮";
-import Component25 from "./components/component/悬浮跟踪按钮";
-import Component26 from "./components/component/悬浮视差按钮";
-import Component27 from "./components/component/悬浮状态球";
-import Component28 from "./components/component/圆角进度条";
-import Component29 from "./components/component/粘粘球";
-import Component30 from "./components/component/折叠面板";
-import Component31 from "./components/component/专栏头像";
-import Component32 from "./components/component/自动打字器";
-import Component33 from "./components/component/自适应相册";
+import Component18 from "./components/component/商城打孔票券";
+import Component19 from "./components/component/条形加载条";
+import Component20 from "./components/component/图像换色器";
+import Component21 from "./components/component/心形加载条";
+import Component22 from "./components/component/星级评分";
+import Component23 from "./components/component/悬浮跟踪按钮";
+import Component24 from "./components/component/悬浮视差按钮";
+import Component25 from "./components/component/悬浮状态球";
+import Component26 from "./components/component/圆角进度条";
+import Component27 from "./components/component/粘粘球";
+import Component28 from "./components/component/折叠面板";
+import Component29 from "./components/component/专栏头像";
+import Component30 from "./components/component/自动打字器";
+import Component31 from "./components/component/自适应相册";
 
 import Figure1 from "./components/figure/使用box-shadow裁剪聚焦区域";
 import Figure2 from "./components/figure/使用box-shadow描绘单侧投影";
 import Figure3 from "./components/figure/使用clip-path描绘各种图形";
-import Figure4 from "./components/figure/使用conic-gradient()描绘彩色饼图";
-import Figure5 from "./components/figure/使用linear-gradient()描绘波浪划线";
-import Figure6 from "./components/figure/使用linear-gradient()描绘方格背景";
-import Figure7 from "./components/figure/使用linear-gradient()描绘方格彩带";
-import Figure8 from "./components/figure/使用linear-gradient()描绘网格背景";
-import Figure9 from "./components/figure/使用mask雕刻镂空背景";
-import Figure10 from "./components/figure/使用outline描绘内部边框";
-import Figure11 from "./components/figure/使用transform描绘动感心形";
+import Figure4 from "./components/figure/使用clip描绘蛇形边框";
+import Figure5 from "./components/figure/使用conic-gradient()描绘彩色饼图";
+import Figure6 from "./components/figure/使用linear-gradient()描绘波浪划线";
+import Figure7 from "./components/figure/使用linear-gradient()描绘方格背景";
+import Figure8 from "./components/figure/使用linear-gradient()描绘方格彩带";
+import Figure9 from "./components/figure/使用linear-gradient()描绘网格背景";
+import Figure10 from "./components/figure/使用mask雕刻镂空背景";
+import Figure11 from "./components/figure/使用outline描绘内部边框";
+import Figure12 from "./components/figure/使用transform描绘动感心形";
 
 import Layout1 from "./components/layout/使用clip-path排版蜂窝布局";
 import Layout2 from "./components/layout/使用flexbox排版各种布局";
@@ -415,6 +415,7 @@ export default {
 		Behavior18,
 		Behavior19,
 		Behavior20,
+		Behavior21,
 		// 色彩
 		Color1,
 		Color2,
@@ -460,8 +461,6 @@ export default {
 		Component29,
 		Component30,
 		Component31,
-		Component32,
-		Component33,
 		// 图形
 		Figure1,
 		Figure2,
@@ -474,6 +473,7 @@ export default {
 		Figure9,
 		Figure10,
 		Figure11,
+		Figure12,
 		// 布局
 		Layout1,
 		Layout2,

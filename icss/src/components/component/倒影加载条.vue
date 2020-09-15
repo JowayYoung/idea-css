@@ -14,8 +14,9 @@ $color: #66f #09f;
 }
 .reflect-loading {
 	display: flex;
-	height: 100px;
-	-webkit-box-reflect: below 0 linear-gradient(rgba(#fff, 0), rgba(#fff, .7));
+	padding: 50px;
+	height: 200px;
+	-webkit-box-reflect: below -100px linear-gradient(rgba(#fff, 0), rgba(#fff, .7));
 	li {
 		width: 20px;
 		@for $i from 0 to $count {
