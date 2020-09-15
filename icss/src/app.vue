@@ -306,7 +306,7 @@ import Behavior3 from "./components/behavior/使用@hover定制悬浮提示";
 import Behavior4 from "./components/behavior/使用@hover描绘鼠标跟随";
 import Behavior5 from "./components/behavior/使用@not()去除无用属性";
 import Behavior6 from "./components/behavior/使用@nth-child()选择指定元素";
-import Behavior7 from "./components/behavior/使用@valid和@invalid校验输入表单";
+import Behavior7 from "./components/behavior/使用@valid和@invalid校验表单内容";
 import Behavior8 from "./components/behavior/使用+或~美化选项表单";
 import Behavior9 from "./components/behavior/使用+或~选择指定元素";
 import Behavior10 from "./components/behavior/使用animation-delay保留动画首帧";
