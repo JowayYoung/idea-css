@@ -120,6 +120,7 @@
 			<component30></component30>
 			<component31></component31>
 			<component32></component32>
+			<component33></component33>
 		</div>
 	</div>
 </template>
@@ -355,19 +356,20 @@ import Component16 from "./components/component/气泡背景墙";
 import Component17 from "./components/component/气泡对话框";
 import Component18 from "./components/component/三维立方体";
 import Component19 from "./components/component/商城打孔票券";
-import Component20 from "./components/component/条形加载条";
-import Component21 from "./components/component/图像换色器";
-import Component22 from "./components/component/心形加载条";
-import Component23 from "./components/component/星级评分";
-import Component24 from "./components/component/悬浮跟踪按钮";
-import Component25 from "./components/component/悬浮视差按钮";
-import Component26 from "./components/component/悬浮状态球";
-import Component27 from "./components/component/圆角进度条";
-import Component28 from "./components/component/粘粘球";
-import Component29 from "./components/component/折叠面板";
-import Component30 from "./components/component/专栏头像";
-import Component31 from "./components/component/自动打字器";
-import Component32 from "./components/component/自适应相册";
+import Component20 from "./components/component/手风琴";
+import Component21 from "./components/component/条形加载条";
+import Component22 from "./components/component/图像换色器";
+import Component23 from "./components/component/心形加载条";
+import Component24 from "./components/component/星级评分";
+import Component25 from "./components/component/悬浮跟踪按钮";
+import Component26 from "./components/component/悬浮视差按钮";
+import Component27 from "./components/component/悬浮状态球";
+import Component28 from "./components/component/圆角进度条";
+import Component29 from "./components/component/粘粘球";
+import Component30 from "./components/component/折叠面板";
+import Component31 from "./components/component/专栏头像";
+import Component32 from "./components/component/自动打字器";
+import Component33 from "./components/component/自适应相册";
 
 import Figure1 from "./components/figure/使用box-shadow裁剪聚焦区域";
 import Figure2 from "./components/figure/使用box-shadow描绘单侧投影";
@@ -464,6 +466,7 @@ export default {
 		Component30,
 		Component31,
 		Component32,
+		Component33,
 		// 图形
 		Figure1,
 		Figure2,
