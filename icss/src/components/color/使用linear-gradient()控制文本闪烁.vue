@@ -13,9 +13,9 @@
 	background-blend-mode: hard-light;
 	font-weight: bold;
 	font-size: 20px;
-	color: #fff;
+	color: transparent;
 	animation: shine 2s infinite;
-	-webkit-text-fill-color: transparent;
+	// -webkit-text-fill-color: transparent;
 }
 @keyframes shine {
 	from {
