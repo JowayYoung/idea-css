@@ -1,9 +1,9 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="折叠面板">
 		<div class="accordion">
-			<input id="collapse1" type="checkbox">
-			<input id="collapse2" type="checkbox">
-			<input id="collapse3" type="checkbox">
+			<input id="collapse1" type="checkbox" hidden>
+			<input id="collapse2" type="checkbox" hidden>
+			<input id="collapse3" type="checkbox" hidden>
 			<article>
 				<label for="collapse1">列表1</label>
 				<p>内容1<br>内容2<br>内容3<br>内容4</p>
@@ -30,7 +30,6 @@
 		}
 	}
 	input {
-		display: none;
 		&:nth-child(1):checked ~ article:nth-of-type(1) p,
 		&:nth-child(2):checked ~ article:nth-of-type(2) p,
 		&:nth-child(3):checked ~ article:nth-of-type(3) p {
