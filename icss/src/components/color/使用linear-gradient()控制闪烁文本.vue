@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用linear-gradient()控制文本闪烁">
+	<div class="bruce flex-ct-x" data-title="使用linear-gradient()控制闪烁文本">
 		<p class="blink-text tac">🔥若对CSS技巧很感兴趣，请关注我喔</p>
 	</div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用linear-gradient()控制文本渐变">
+	<div class="bruce flex-ct-x" data-title="使用linear-gradient()控制渐变文本">
 		<h1 class="gradient-text">Full Stack Developer</h1>
 	</div>
 </template>

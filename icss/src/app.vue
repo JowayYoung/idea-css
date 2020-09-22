@@ -313,7 +313,7 @@ import Behavior8 from "./components/behavior/使用@valid和@invalid校验表单
 import Behavior9 from "./components/behavior/使用+或~美化选项表单";
 import Behavior10 from "./components/behavior/使用+或~选择指定元素";
 import Behavior11 from "./components/behavior/使用animation-delay保留动画首帧";
-import Behavior12 from "./components/behavior/使用attr()控制文本切换";
+import Behavior12 from "./components/behavior/使用attr()控制切换文本";
 import Behavior13 from "./components/behavior/使用attr()抓取节点属性";
 import Behavior14 from "./components/behavior/使用content提升反爬效果";
 import Behavior15 from "./components/behavior/使用max-height切换自动高度";
@@ -333,9 +333,9 @@ import Color6 from "./components/color/使用filter开启悼念模式";
 import Color7 from "./components/color/使用filter描绘彩色阴影";
 import Color8 from "./components/color/使用filter描绘动态背景";
 import Color9 from "./components/color/使用filter模拟Instagram滤镜";
-import Color10 from "./components/color/使用linear-gradient()控制背景渐变";
-import Color11 from "./components/color/使用linear-gradient()控制文本渐变";
-import Color12 from "./components/color/使用linear-gradient()控制文本闪烁";
+import Color10 from "./components/color/使用linear-gradient()控制渐变背景";
+import Color11 from "./components/color/使用linear-gradient()控制渐变文本";
+import Color12 from "./components/color/使用linear-gradient()控制闪烁文本";
 
 import Component1 from "./components/component/iOS开关按钮";
 import Component2 from "./components/component/标签导航";
@@ -386,11 +386,11 @@ import Figure12 from "./components/figure/使用transform描绘动感心形";
 
 import Layout1 from "./components/layout/使用clip-path排版蜂窝布局";
 import Layout2 from "./components/layout/使用flexbox排版各种布局";
-import Layout3 from "./components/layout/使用float排版文本环绕";
+import Layout3 from "./components/layout/使用float排版环绕文本";
 import Layout4 from "./components/layout/使用letter-spacing排版倒序文本";
 import Layout5 from "./components/layout/使用margin排版凸显布局";
 import Layout6 from "./components/layout/使用overflow-x排版横向列表";
-import Layout7 from "./components/layout/使用text-overflow控制文本溢出";
+import Layout7 from "./components/layout/使用text-overflow控制溢出文本";
 import Layout8 from "./components/layout/使用transform翻转容器内容";
 import Layout9 from "./components/layout/使用transform描绘像素边框";
 import Layout10 from "./components/layout/使用writing-mode排版竖向文本";
