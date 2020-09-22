@@ -15,7 +15,7 @@
 </template>
 
 <style lang="scss" scoped>
-$bg: "https://static.yangzw.vip/codepen/bg.jpg";
+$bg: "https://static.yangzw.vip/codepen/lake.jpg";
 .bruce {
 	overflow-x: hidden;
 	overflow-y: auto;

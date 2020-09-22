@@ -7,9 +7,8 @@
 </template>
 
 <style lang="scss" scoped>
-$mask-bg: "https://static.yangzw.vip/codepen/mask-bg.jpg";
-$mask-text: "https://static.yangzw.vip/codepen/mask-text.jpg";
-// $logo: "https://static.yangzw.vip/codepen/logo-netease.svg";
+$mask-bg: "https://static.yangzw.vip/codepen/mountain.jpg";
+$mask-text: "https://static.yangzw.vip/codepen/snow.jpg";
 $logo: "../../assets/img/logo-netease.svg";
 .bruce {
 	padding: 0;

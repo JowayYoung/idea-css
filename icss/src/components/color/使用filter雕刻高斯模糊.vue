@@ -10,7 +10,7 @@
 </template>
 
 <style lang="scss" scoped>
-$mask-bg: "https://yangzw.vip/static/codepen/mask-bg.jpg";
+$mask-bg: "https://yangzw.vip/static/codepen/mountain.jpg";
 .bruce {
 	padding: 0;
 }
