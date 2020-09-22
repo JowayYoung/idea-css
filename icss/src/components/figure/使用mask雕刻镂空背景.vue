@@ -9,7 +9,7 @@
 <style lang="scss" scoped>
 $mask-bg: "https://static.yangzw.vip/codepen/mask-bg.jpg";
 $mask-text: "https://static.yangzw.vip/codepen/mask-text.jpg";
-// $logo: "https://static.yangzw.vip/codepen/logo-netease.svg";
+// $logo: "https://static.yangzw.vip/codepen/logo.png";
 $logo: "../../assets/img/logo-netease.svg";
 .bruce {
 	padding: 0;
