@@ -1,6 +1,6 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="专栏头像">
-		<div class="article-avatar flex-ct-y">
+		<div class="article-avatar">
 			<p class="left">JowayYoung</p>
 			<p class="right">谈前端</p>
 		</div>
@@ -9,6 +9,10 @@
 
 <style lang="scss" scoped>
 .article-avatar {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
 	border-radius: 100%;
 	width: 250px;
 	height: 250px;

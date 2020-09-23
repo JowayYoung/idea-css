@@ -1,6 +1,6 @@
 <template>
 	<div class="bruce" data-title="使用mask雕刻镂空背景">
-		<div class="mask-bg flex-ct-x">
+		<div class="mask-bg">
 			<div></div>
 		</div>
 	</div>
@@ -15,7 +15,10 @@ $logo: "../../assets/img/logo-netease.svg";
 	height: 400px;
 }
 .mask-bg {
+	display: flex;
 	overflow: hidden;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	height: 100%;
 	&::after {
