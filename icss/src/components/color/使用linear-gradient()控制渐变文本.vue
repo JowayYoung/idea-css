@@ -10,8 +10,8 @@
 	background-clip: text;
 	line-height: 60px;
 	font-size: 60px;
+	color: transparent;
 	animation: hue 5s linear infinite;
-	-webkit-text-fill-color: transparent;
 }
 @keyframes hue {
 	from {
