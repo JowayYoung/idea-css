@@ -9,7 +9,7 @@
 .text-switch {
 	& + label {
 		cursor: pointer;
-		font-weight: blod;
+		font-weight: bold;
 		font-size: 50px;
 		color: #f66;
 		&::after {
