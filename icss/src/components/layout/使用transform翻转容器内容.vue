@@ -30,7 +30,7 @@
 			margin-top: 10px;
 		}
 		&.x-axis {
-			transform: scale3d(1, -1, 1);
+			transform: scale(1, -1);
 			&::after {
 				left: 0;
 				top: 25px;
@@ -39,7 +39,7 @@
 			}
 		}
 		&.y-axis {
-			transform: scale3d(-1, 1, 1);
+			transform: scale(-1, 1);
 			&::after {
 				left: 60px;
 				top: 0;
@@ -48,7 +48,7 @@
 			}
 		}
 		&.reverse {
-			transform: scale3d(-1, -1, 1);
+			transform: scale(-1, -1);
 			&::before {
 				left: 0;
 				top: 25px;
