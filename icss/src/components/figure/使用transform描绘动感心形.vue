@@ -26,10 +26,10 @@
 		content: "";
 	}
 	&::before {
-		transform: translateX(-100px);
+		transform: translateX(-50%);
 	}
 	&::after {
-		transform: translateY(-100px);
+		transform: translateY(-50%);
 	}
 }
 </style>
