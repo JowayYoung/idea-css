@@ -114,7 +114,6 @@
 		transition: all 300ms;
 	}
 	button {
-		overflow: hidden;
 		margin-top: 10px;
 		border: none;
 		border-radius: 2px;
