@@ -14,7 +14,7 @@
 	width: 200px;
 	height: 200px;
 	li {
-		--time: calc(var(--line-index) * 200ms);
+		--time: calc((var(--line-index) - 1) * 200ms);
 		border-radius: 3px;
 		width: 6px;
 		height: 30px;
