@@ -4,18 +4,18 @@
 			<h3>注册</h3>
 			<div class="accout">
 				<input type="text" placeholder="请输入手机或邮箱" pattern="^1[3456789]\d{9}$|^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$" required>
-				<img src="https://b-gold-cdn.xitu.io/v3/static/img/greeting.1415c1c.png">
+				<img src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-assets/v3/static/img/greeting.1415c1c.png~tplv-t2oaga2asx-image.image">
 			</div>
 			<div class="password">
 				<input type="password" placeholder="请输入密码(6到20位字符)" pattern="^[\dA-Za-z_]{6,20}$" required>
-				<img src="https://b-gold-cdn.xitu.io/v3/static/img/blindfold.58ce423.png">
+				<img src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-assets/v3/static/img/blindfold.58ce423.png~tplv-t2oaga2asx-image.image">
 			</div>
 			<div class="code">
 				<input type="text" placeholder="请输入邀请码(6位数字)" pattern="^[\d]{6}$" maxLength="6" required>
 				<button type="button">查询</button>
-				<img src="https://b-gold-cdn.xitu.io/v3/static/img/greeting.1415c1c.png">
+				<img src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-assets/v3/static/img/greeting.1415c1c.png~tplv-t2oaga2asx-image.image">
 			</div>
-			<img src="https://b-gold-cdn.xitu.io/v3/static/img/normal.0447fe9.png">
+			<img src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-assets/v3/static/img/normal.0447fe9.png~tplv-t2oaga2asx-image.image">
 			<ul>
 				<li>
 					<input id="male" type="radio" name="sex">
