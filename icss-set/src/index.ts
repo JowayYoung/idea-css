@@ -3,14 +3,17 @@ import { createRouter, createWebHistory } from "vue-router";
 import App from "./app.vue";
 
 import "./assets/css/reset.css";
-import About from "./views/about/index.vue";
+import Behavior from "./views/behavior/index.vue";
 import Home from "./views/home/index.vue";
 
 const router = createRouter({
 	history: createWebHistory(),
 	routes: [
 		{ component: Home, path: "/" },
-		{ component: About, path: "/about" }
+		{ component: Behavior, path: "/behavior" },
+		{ component: Behavior, path: "/color" },
+		{ component: Behavior, path: "/component" },
+		{ component: Behavior, path: "/figure" }
 	]
 });
 

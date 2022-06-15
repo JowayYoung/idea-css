@@ -9,7 +9,13 @@
 			<p class="header-desc">欢迎来到<strong class="header-tag vue">Pure CSS World</strong></p>
 			<p class="header-desc">请往下滚动浏览更多好看实用的纯CSS特效👇</p>
 			<p class="header-desc">根据美学标准将以下纯CSS特效划分为五大类</p>
-			<p class="header-desc">布局-行为-色彩-图形-组件</p>
+			<nav class="header-nav">
+				<router-link class="header-nav-item" active-class="active" to="/layout">布局</router-link>-
+				<router-link class="header-nav-item" active-class="active" to="/behavior">行为</router-link>-
+				<router-link class="header-nav-item" active-class="active" to="/color">色彩</router-link>-
+				<router-link class="header-nav-item" active-class="active" to="/figure">图形</router-link>-
+				<router-link class="header-nav-item" active-class="active" to="/component">组件</router-link>
+			</nav>
 			<p class="header-desc">大部分纯CSS特效为原创，亦有少部分参考他人</p>
 			<p class="header-desc">2019年在掘金社区发布一篇纯CSS特效文章</p>
 			<p class="header-desc">目前已斩获5000+点赞量和155k+阅读量</p>
@@ -24,6 +30,7 @@
 				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="140" height="30" title="GitHub"></iframe>
 			</div>
 		</div>
+		<router-view></router-view>
 	</div>
 </template>
 
@@ -68,6 +75,20 @@
 		color: #fff;
 		& + p {
 			margin-top: 10px;
+		}
+	}
+	&-nav {
+		display: flex;
+		line-height: 1.5;
+		font-size: 1.8vmin;
+		color: #fff;
+		&-item {
+			margin: 0 5px;
+			color: #fff;
+			&.active {
+				font-weight: bold;
+				color: #f66;
+			}
 		}
 	}
 	&-tag {
