@@ -1,0 +1,20 @@
+{
+	"name": "icss-set",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"author": "",
+	"engines": {
+		"node": ">=16.0.0",
+		"npm": ">=7.10.0"
+	},
+	"dependencies": {
+		"vue": "3.2.36",
+		"vue-router": "4.0.13"
+	},
+	"devDependencies": {
+		"@types/node": "17.0.43",
+		"@types/webpack-env": "1.17.0"
+	},
+	"license": "MIT"
+}
