@@ -24,7 +24,7 @@
 		white-space: nowrap;
 	}
 	&.ml-ellipsis {
-		display: box;
+		display: -webkit-box; /* stylelint-disable-line */
 		overflow: hidden;
 		-webkit-line-clamp: 3;
 		text-overflow: ellipsis;
