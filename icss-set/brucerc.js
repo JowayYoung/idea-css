@@ -5,7 +5,9 @@ module.exports = {
 	buildErrorCb: null, // 构建失败回调函数：Function
 	buildSuccessCb: null, // 构建成功回调函数：Function
 	eslintIgnores: [], // Eslint忽略路径列表：Array
-	eslintRules: {}, // Eslint校验规则列表：Object
+	eslintRules: {
+		"vue/name-property-casing": ["off"]
+	}, // Eslint校验规则列表：Object
 	frame: "vue", // 开发框架：String
 	openPages: [], // 打开页面：Array
 	proxy: {}, // 接口代理：Object或Array

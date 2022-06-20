@@ -1,7 +1,7 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="心形加载条">
 		<div class="heart-loading">
-			<ul style="--line-count: 9">
+			<ul style="--line-count: 9;">
 				<li v-for="v in 9" :key="v" :class="`line-${v}`" :style="`--line-index: ${v}`"></li>
 			</ul>
 		</div>
@@ -22,13 +22,13 @@
 		height: 10px;
 	}
 	li {
-		--Θ: calc(var(--line-index) / var(--line-count) * .5turn);
+		--angle: calc(var(--line-index) / var(--line-count) * .5turn);
 		--time: calc((var(--line-index) - 1) * 40ms);
 		border-radius: 5px;
 		width: 10px;
 		height: 10px;
 		background-color: #3c9;
-		filter: hue-rotate(var(--Θ));
+		filter: hue-rotate(var(--angle));
 		animation-duration: 1s;
 		animation-delay: var(--time);
 		animation-iteration-count: infinite;

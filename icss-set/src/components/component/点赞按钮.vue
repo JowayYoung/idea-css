@@ -6,7 +6,7 @@
 				<svg class="like-heart" width="24" height="24" viewBox="0 0 24 24">
 					<path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"></path>
 				</svg>
-				<div class="like-particle" style="--line-count: 6">
+				<div class="like-particle" style="--line-count: 6;">
 					<div v-for="v in 6" :key="v" class="like-particle-item" :style="`--line-index: ${v}`"></div>
 				</div>
 			</div>
@@ -121,7 +121,7 @@ $duration: 500ms;
 	height: 1px;
 }
 .like-particle-item {
-	--Θ: calc(var(--line-index) / var(--line-count) * 1turn);
+	--angle: calc(var(--line-index) / var(--line-count) * 1turn);
 	$color-list: #f66 #66f #f90 #09f #9c3 #3c9;
 	position: absolute;
 	left: 0;
@@ -129,7 +129,7 @@ $duration: 500ms;
 	border-radius: .05em;
 	width: .1em;
 	height: .1em;
-	transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(0) scaleY(0);
+	transform: translate(-50%, -50%) rotate(var(--angle)) translateY(0) scaleY(0);
 	transition: all $duration $easing;
 	@each $v in $color-list {
 		$index: index($color-list, $v);
@@ -176,17 +176,14 @@ $duration: 500ms;
 @keyframes particle-out {
 	50% {
 		height: .3em;
-	}
-	50%,
-	60% {
-		height: .3em;
-		transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(.8em) scale(1);
+		transform: translate(-50%, -50%) rotate(var(--angle)) translateY(.8em) scale(1);
 	}
 	60% {
 		height: .2em;
+		transform: translate(-50%, -50%) rotate(var(--angle)) translateY(.8em) scale(1);
 	}
 	100% {
-		transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(1em) scale(0);
+		transform: translate(-50%, -50%) rotate(var(--angle)) translateY(1em) scale(0);
 	}
 }
 @keyframes ripple-out {

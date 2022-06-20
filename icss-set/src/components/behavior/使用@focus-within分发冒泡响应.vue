@@ -78,8 +78,8 @@
 			animation: move 500ms infinite linear;
 		}
 	}
-	input[type=text],
-	input[type=password] {
+	input[type="text"],
+	input[type="password"] {
 		padding: 10px;
 		border: 1px solid #e9e9e9;
 		border-radius: 2px;
@@ -94,7 +94,7 @@
 			border-color: #f66;
 		}
 	}
-	input[type=radio] {
+	input[type="radio"] {
 		position: absolute;
 		width: 0;
 		height: 0;

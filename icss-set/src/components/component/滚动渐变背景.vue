@@ -23,7 +23,7 @@
 	width: 400px;
 	height: 400px;
 	header {
-		--Θ: calc(var(--scrolly) * 2deg);
+		--angle: calc(var(--scrolly) * 2deg);
 		--size: calc(1500px - var(--scrolly) * 2px);
 		--x: calc(var(--size) / 2 * -1);
 		--y: calc(var(--scrolly) * -1px);
@@ -36,7 +36,7 @@
 		width: var(--size);
 		height: var(--size);
 		background-color: #3c9;
-		filter: hue-rotate(var(--Θ));
+		filter: hue-rotate(var(--angle));
 		animation: rotate 5s linear infinite;
 	}
 	main {

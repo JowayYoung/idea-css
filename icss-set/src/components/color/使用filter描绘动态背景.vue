@@ -8,10 +8,10 @@
 .bruce {
 	--x: 0;
 	--width: 400;
-	--Θ: calc(var(--x) / var(--width) * 1turn);
+	--angle: calc(var(--x) / var(--width) * 1turn);
 	padding: 0;
 	background-color: #3c9;
-	filter: hue-rotate(var(--Θ));
+	filter: hue-rotate(var(--angle));
 }
 .dynamic-bg {
 	overflow: hidden;
