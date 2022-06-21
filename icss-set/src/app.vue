@@ -10,18 +10,18 @@
 			<p class="header-desc">请往下滚动浏览更多好看实用的纯CSS特效👇</p>
 			<p class="header-desc">根据美学标准将以下纯CSS特效划分为五大类</p>
 			<nav class="header-nav">
-				<router-link class="header-nav-item" active-class="active" to="/layout">布局</router-link>-
-				<router-link class="header-nav-item" active-class="active" to="/behavior">行为</router-link>-
-				<router-link class="header-nav-item" active-class="active" to="/color">色彩</router-link>-
-				<router-link class="header-nav-item" active-class="active" to="/figure">图形</router-link>-
-				<router-link class="header-nav-item" active-class="active" to="/component">组件</router-link>
+				<a class="header-nav-item">布局</a>-
+				<a class="header-nav-item">行为</a>-
+				<a class="header-nav-item">色彩</a>-
+				<a class="header-nav-item">图形</a>-
+				<a class="header-nav-item">组件</a>
 			</nav>
 			<p class="header-desc">大部分纯CSS特效为原创，亦有少部分参考他人</p>
 			<p class="header-desc">2019年在掘金社区发布一篇纯CSS特效文章</p>
-			<p class="header-desc">目前已斩获5000+点赞量和155k+阅读量</p>
+			<p class="header-desc">目前已斩获<strong class="header-tag default">5000+</strong>点赞量与<strong class="header-tag default">155k+</strong>阅读量</p>
 			<p class="header-desc">稳居掘金社区点赞量前10排行榜并深受好评</p>
 			<p class="header-desc">若你有更多想象空间也可贡献出你的iDea CSS❤️</p>
-			<p class="header-desc">目前已发布<strong class="default">{{count}}</strong>个，争取每月更新<strong class="react">1~2</strong>个</p>
+			<p class="header-desc">目前已发布<strong class="header-tag vue">{{count}}</strong>个，争取每月更新<strong class="header-tag react">2</strong>个</p>
 			<p class="header-desc">CSS没有想象中的简单也没有实际中的难用</p>
 			<p class="header-desc">为了让更多开发者关注CSS，一起Star该项目好吗😜</p>
 			<div class="header-stats">
@@ -30,7 +30,6 @@
 				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="140" height="30" title="GitHub"></iframe>
 			</div>
 		</div>
-		<router-view></router-view>
 		<div class="content layout">
 			<layout1></layout1>
 			<layout2></layout2>
@@ -326,6 +325,8 @@
 </style>
 
 <script lang="ts">
+import { defineComponent, onMounted, ref } from "vue";
+
 import Behavior1 from "./components/behavior/使用@empty监听清空状态.vue";
 import Behavior2 from "./components/behavior/使用@focus-within分发冒泡响应.vue";
 import Behavior3 from "./components/behavior/使用@hover定制悬浮提示.vue";
@@ -420,7 +421,7 @@ import Layout8 from "./components/layout/使用transform翻转容器内容.vue";
 import Layout9 from "./components/layout/使用transform描绘像素边框.vue";
 import Layout10 from "./components/layout/使用writing-mode排版竖向文本.vue";
 
-export default {
+export default defineComponent({
 	name: "app",
 	components: {
 		// 行为
@@ -517,6 +518,15 @@ export default {
 		Layout8,
 		Layout9,
 		Layout10
+	},
+	setup(): object {
+		const count = ref<number>(0);
+		onMounted(() => {
+			const items = document.getElementsByClassName("bruce") || [];
+			console.log(items.length);
+			count.value = items.length;
+		});
+		return { count };
 	}
-};
+});
 </script>
