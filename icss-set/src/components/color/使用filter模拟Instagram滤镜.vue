@@ -158,7 +158,7 @@
 }
 </style>
 
-<script>
+<script lang="ts">
 import "../../assets/css/cssgram.min.css";
 export default {};
 </script>

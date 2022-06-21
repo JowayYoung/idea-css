@@ -523,7 +523,6 @@ export default defineComponent({
 		const count = ref<number>(0);
 		onMounted(() => {
 			const items = document.getElementsByClassName("bruce") || [];
-			console.log(items.length);
 			count.value = items.length;
 		});
 		return { count };
