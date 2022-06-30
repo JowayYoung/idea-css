@@ -20,7 +20,7 @@ $color: #66f #09f;
 	li {
 		width: 20px;
 		@for $i from 0 to $count {
-			$args: append($color, calc($i * 100% / ($count - 1)));
+			$args: append($color, $i * 100% / ($count - 1));
 			&:nth-child(#{$i + 1}) {
 				background-color: mix($args...);
 				animation: rotate 3s cubic-bezier(.81, .04, .4, .7) infinite;

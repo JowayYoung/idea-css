@@ -44,27 +44,27 @@ $length: 150px;
 		color: #fff;
 		&.front {
 			background-color: #f66;
-			transform: translateZ($length / 2);
+			transform: translateZ(calc($length / 2));
 		}
 		&.back {
 			background-color: #66f;
-			transform: rotateY(180deg) translateZ($length / 2);
+			transform: rotateY(180deg) translateZ(calc($length / 2));
 		}
 		&.top {
 			background-color: #f90;
-			transform: rotateX(90deg) translateZ($height / 2);
+			transform: rotateX(90deg) translateZ(calc($height / 2));
 		}
 		&.bottom {
 			background-color: #09f;
-			transform: rotateX(-90deg) translateZ($height / 2);
+			transform: rotateX(-90deg) translateZ(calc($height / 2));
 		}
 		&.left {
 			background-color: #9c3;
-			transform: rotateY(-90deg) translateZ($width / 2);
+			transform: rotateY(-90deg) translateZ(calc($width / 2));
 		}
 		&.right {
 			background-color: #3c9;
-			transform: rotateY(90deg) translateZ($width / 2);
+			transform: rotateY(90deg) translateZ(calc($width / 2));
 		}
 	}
 }

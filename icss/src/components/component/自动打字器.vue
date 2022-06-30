@@ -24,7 +24,7 @@
 }
 @keyframes caret {
 	50% {
-		border-right-color: currentColor;
+		border-right-color: currentcolor;
 	}
 }
 @keyframes typing {

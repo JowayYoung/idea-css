@@ -6,7 +6,7 @@
 
 <style lang="scss" scoped>
 @mixin progress-bar($width: 100px, $height: 10px, $color: #f66, $percent: 0) {
-	border-radius: calc($height / 2);
+	border-radius: $height / 2;
 	width: $width;
 	height: $height;
 	background-color: #ccc;

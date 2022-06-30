@@ -7,8 +7,8 @@
 </template>
 
 <style lang="scss" scoped>
-$mask-bg: "https://static.yangzw.vip/img/icss/mountain.jpg";
-$mask-text: "https://static.yangzw.vip/img/icss/snow.jpg";
+$mask-bg: "https://static.yangzw.vip/codepen/mountain.jpg";
+$mask-text: "https://static.yangzw.vip/codepen/snow.jpg";
 $logo: "../../assets/img/logo-netease.svg";
 .bruce {
 	padding: 0;
@@ -17,9 +17,9 @@ $logo: "../../assets/img/logo-netease.svg";
 .mask-bg {
 	display: flex;
 	overflow: hidden;
-	position: relative;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 	height: 100%;
 	&::after {
 		position: absolute;

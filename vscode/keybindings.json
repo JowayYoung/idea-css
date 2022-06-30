@@ -1,4 +1,0 @@
-[{
-	"key": "ctrl+alt+c", // "cmd+alt+c"
-	"command": "csscomb.execute"
-}]

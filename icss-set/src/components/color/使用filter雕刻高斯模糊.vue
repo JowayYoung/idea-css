@@ -10,7 +10,7 @@
 </template>
 
 <style lang="scss" scoped>
-$mask-bg: "https://static.yangzw.vip/img/icss/mountain.jpg";
+$mask-bg: "https://static.yangzw.vip/codepen/mountain.jpg";
 .bruce {
 	padding: 0;
 }
@@ -20,13 +20,13 @@ $mask-bg: "https://static.yangzw.vip/img/icss/mountain.jpg";
 }
 .glass-layer {
 	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
 	overflow: hidden;
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	flex-flow: column wrap;
-	justify-content: center;
-	align-items: center;
 	border-radius: 10px;
 	width: 400px;
 	height: 200px;

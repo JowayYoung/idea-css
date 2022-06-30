@@ -1,6 +1,6 @@
 <template>
 	<div class="bruce flex-ct-y" data-title="放大镜">
-		<div class="magnifier" @mousemove="move"></div>
+		<div class="magnifier"></div>
 	</div>
 </template>
 
@@ -8,7 +8,7 @@
 $ratio: 2;
 $box-w: 600px;
 $box-h: 400px;
-$box-bg: "https://static.yangzw.vip/codepen/gz.jpg";
+$box-bg: "https://static.yangzw.vip/img/icss/gz.jpg";
 $outbox-w: $box-w * $ratio;
 $outbox-h: $box-h * $ratio;
 .magnifier {
@@ -42,13 +42,18 @@ $outbox-h: $box-h * $ratio;
 }
 </style>
 
-<script>
-export default {
-	methods: {
-		move(e) {
-			e.target.style.setProperty("--x", `${e.offsetX}px`);
-			e.target.style.setProperty("--y", `${e.offsetY}px`);
-		}
+<script lang="ts">
+import { defineComponent, onMounted } from "vue";
+
+export default defineComponent({
+	setup() {
+		onMounted(() => {
+			const magnifier = document.getElementsByClassName("magnifier")[0];
+			magnifier.addEventListener("mousemove", e => {
+				e.target.style.setProperty("--x", `${e.offsetX}px`);
+				e.target.style.setProperty("--y", `${e.offsetY}px`);
+			});
+		});
 	}
-};
+});
 </script>

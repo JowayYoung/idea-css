@@ -24,11 +24,11 @@
 		white-space: nowrap;
 	}
 	&.ml-ellipsis {
-		display: -webkit-box;
+		display: -webkit-box; /* stylelint-disable-line */
 		overflow: hidden;
+		-webkit-line-clamp: 3;
 		text-overflow: ellipsis;
 		-webkit-box-orient: vertical;
-		-webkit-line-clamp: 3;
 	}
 	&.mls-ellipsis {
 		overflow: hidden;

@@ -1,18 +1,18 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="使用clip-path描绘各种图形">
-		<ul class="figure-box" style="--count: 12;">
-			<li class="star" style="--index: 0;"></li>
-			<li class="ellipse" style="--index: 1;"></li>
-			<li class="circle" style="--index: 2;"></li>
-			<li class="triangle" style="--index: 3;"></li>
-			<li class="rhombus" style="--index: 4;"></li>
-			<li class="trapezoid" style="--index: 5;"></li>
-			<li class="parallelogram" style="--index: 6;"></li>
-			<li class="pentagon" style="--index: 7;"></li>
-			<li class="left-arrow" style="--index: 8;"></li>
-			<li class="right-arrow" style="--index: 9;"></li>
-			<li class="close" style="--index: 10;"></li>
-			<li class="message" style="--index: 11;"></li>
+		<ul class="figure-box" style="--count: 12">
+			<li class="star" style="--index: 0"></li>
+			<li class="ellipse" style="--index: 1"></li>
+			<li class="circle" style="--index: 2"></li>
+			<li class="triangle" style="--index: 3"></li>
+			<li class="rhombus" style="--index: 4"></li>
+			<li class="trapezoid" style="--index: 5"></li>
+			<li class="parallelogram" style="--index: 6"></li>
+			<li class="pentagon" style="--index: 7"></li>
+			<li class="left-arrow" style="--index: 8"></li>
+			<li class="right-arrow" style="--index: 9"></li>
+			<li class="close" style="--index: 10"></li>
+			<li class="message" style="--index: 11"></li>
 		</ul>
 	</div>
 </template>
@@ -24,12 +24,12 @@
 	justify-content: center;
 	max-width: 720px;
 	li {
-		--angle: calc(var(--index) / var(--count) * 1turn);
+		--Θ: calc(var(--index) / var(--count) * 1turn);
 		margin: 10px;
 		width: 100px;
 		height: 100px;
 		background-color: #3c9;
-		filter: hue-rotate(var(--angle));
+		filter: hue-rotate(var(--Θ));
 		&.star {
 			clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 		}

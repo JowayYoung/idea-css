@@ -5,7 +5,7 @@
 </template>
 
 <style lang="scss" scoped>
-$avatar: "https://static.yangzw.vip/img/icss/thor.jpg";
+$avatar: "https://static.yangzw.vip/codepen/thor.jpg";
 .avatar-shadow {
 	position: relative;
 	border-radius: 100%;

@@ -4,19 +4,19 @@
 		<ul class="image-size">
 			<li>
 				<h3>Cover</h3>
-				<img class="cover" src="https://static.yangzw.vip/img/icss/ab-1.jpg">
+				<img class="cover" src="https://static.yangzw.vip/codepen/ab-1.jpg">
 			</li>
 			<li>
 				<h3>Contain</h3>
-				<img class="contain" src="https://static.yangzw.vip/img/icss/ab-1.jpg">
+				<img class="contain" src="https://static.yangzw.vip/codepen/ab-1.jpg">
 			</li>
 			<li>
 				<h3>Fill</h3>
-				<img class="fill" src="https://static.yangzw.vip/img/icss/ab-2.jpg">
+				<img class="fill" src="https://static.yangzw.vip/codepen/ab-2.jpg">
 			</li>
 			<li>
 				<h3>ScaleDown</h3>
-				<img class="scale-down" src="https://static.yangzw.vip/img/icss/ab-2.jpg">
+				<img class="scale-down" src="https://static.yangzw.vip/codepen/ab-2.jpg">
 			</li>
 		</ul>
 	</div>

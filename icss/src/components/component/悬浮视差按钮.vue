@@ -1,6 +1,6 @@
 <template>
-	<div ref="bg" class="bruce flex-ct-x" data-title="悬浮视差按钮">
-		<a ref="btn" class="parallax-btn" data-name="妙用CSS变量，让你的CSS变得更心动" @mousemove="move" @mouseup="up" @mousedown="down" @mouseleave="leave"></a>
+	<div class="bruce flex-ct-x" data-title="悬浮视差按钮">
+		<a class="parallax-btn" data-name="妙用CSS变量，让你的CSS变得更心动"></a>
 	</div>
 </template>
 
@@ -48,30 +48,33 @@
 }
 </style>
 
-<script>
-export default {
-	mounted() {
-		this.bgStyle = this.$refs.bg.style;
-		this.btnRect = this.$refs.btn.getBoundingClientRect();
-	},
-	methods: {
-		down(e) {
-			this.bgStyle.setProperty("--tz", "-25px");
-		},
-		leave(e) {
-			this.bgStyle.setProperty("--ty", "0");
-			this.bgStyle.setProperty("--rx", "0");
-			this.bgStyle.setProperty("--ry", "0");
-		},
-		move(e) {
-			const dx = e.offsetX - this.btnRect.width / 2;
-			const dy = e.offsetY - this.btnRect.height / 2;
-			this.bgStyle.setProperty("--rx", `${dy / -1}deg`);
-			this.bgStyle.setProperty("--ry", `${dx / 10}deg`);
-		},
-		up() {
-			this.bgStyle.setProperty("--tz", "-12px");
-		}
+<script lang="ts">
+import { defineComponent, onMounted } from "vue";
+
+export default defineComponent({
+	setup() {
+		onMounted(() => {
+			const btn = document.getElementsByClassName("parallax-btn")[0];
+			const btnStyle = btn.style;
+			const btnRect = btn.getBoundingClientRect();
+			btn.addEventListener("mousemove", e => {
+				const dx = e.offsetX - btnRect.width / 2;
+				const dy = e.offsetY - btnRect.height / 2;
+				btnStyle.setProperty("--rx", `${dy / -1}deg`);
+				btnStyle.setProperty("--ry", `${dx / 10}deg`);
+			});
+			btn.addEventListener("mouseup", () => {
+				btnStyle.setProperty("--tz", "-12px");
+			});
+			btn.addEventListener("mousedown", () => {
+				btnStyle.setProperty("--tz", "-25px");
+			});
+			btn.addEventListener("mouseleave", () => {
+				btnStyle.setProperty("--ty", "0");
+				btnStyle.setProperty("--rx", "0");
+				btnStyle.setProperty("--ry", "0");
+			});
+		});
 	}
-};
+});
 </script>

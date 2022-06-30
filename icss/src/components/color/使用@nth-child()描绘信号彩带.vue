@@ -1,6 +1,6 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="使用:nth-child()描绘信号彩带">
-		<ul class="signal-bar" style="--line-count: 5">
+		<ul class="signal-bar" style="--line-count: 5;">
 			<li v-for="v in 5" :key="v" :style="`--line-index: ${v}`">
 				<em></em>
 			</li>
@@ -16,7 +16,7 @@
 	width: 200px;
 	height: 200px;
 	li {
-		--Θ: calc(var(--line-index) / var(--line-count) * .5turn);
+		--angle: calc(var(--line-index) / var(--line-count) * .5turn);
 		--height: calc((var(--line-index) + 1) * 30px);
 		--time: calc(var(--line-index) * 100ms);
 		display: flex;
@@ -29,7 +29,7 @@
 		width: 100%;
 		height: 10px;
 		background-color: #3c9;
-		filter: hue-rotate(var(--Θ));
+		filter: hue-rotate(var(--angle));
 		animation: beat 2s ease-in-out var(--time) infinite alternate;
 	}
 }

@@ -1,6 +1,6 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="悬浮跟踪按钮">
-		<a class="track-btn">
+		<a class="track-btn" @mousemove="move">
 			<span>妙用CSS变量，让你的CSS变得更心动</span>
 		</a>
 	</div>
@@ -42,19 +42,13 @@
 }
 </style>
 
-<script lang="ts">
-import { defineComponent, onMounted } from "vue";
-
-export default defineComponent({
-	setup() {
-		onMounted(() => {
-			const btn = document.getElementsByClassName("track-btn")[0];
-			const btnStyle = btn.style;
-			btn.addEventListener("mousemove", e => {
-				btnStyle.setProperty("--x", `${e.offsetX}px`);
-				btnStyle.setProperty("--y", `${e.offsetY}px`);
-			});
-		});
+<script>
+export default {
+	methods: {
+		move(e) {
+			e.target.style.setProperty("--x", `${e.offsetX}px`);
+			e.target.style.setProperty("--y", `${e.offsetY}px`);
+		}
 	}
-});
+};
 </script>
