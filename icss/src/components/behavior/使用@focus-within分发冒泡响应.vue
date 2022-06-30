@@ -4,18 +4,18 @@
 			<h3>注册</h3>
 			<div class="accout">
 				<input type="text" placeholder="请输入手机或邮箱" pattern="^1[3456789]\d{9}$|^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$" required>
-				<img src="https://b-gold-cdn.xitu.io/v3/static/img/greeting.1415c1c.png">
+				<img src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/500c1180a96859e5c54a5359f024a397.svg">
 			</div>
 			<div class="password">
 				<input type="password" placeholder="请输入密码(6到20位字符)" pattern="^[\dA-Za-z_]{6,20}$" required>
-				<img src="https://b-gold-cdn.xitu.io/v3/static/img/blindfold.58ce423.png">
+				<img src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/4f6f6f316cde4398d201cd67e44ddea3.svg">
 			</div>
 			<div class="code">
 				<input type="text" placeholder="请输入邀请码(6位数字)" pattern="^[\d]{6}$" maxLength="6" required>
 				<button type="button">查询</button>
-				<img src="https://b-gold-cdn.xitu.io/v3/static/img/greeting.1415c1c.png">
+				<img src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/500c1180a96859e5c54a5359f024a397.svg">
 			</div>
-			<img src="https://b-gold-cdn.xitu.io/v3/static/img/normal.0447fe9.png">
+			<img src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/ad7fa76844a2df5c03151ead0ce65ea6.svg">
 			<ul>
 				<li>
 					<input id="male" type="radio" name="sex">
@@ -32,16 +32,13 @@
 </template>
 
 <style lang="scss" scoped>
-.bruce {
-	background-color: #999;
-}
 .bubble-distribution {
 	position: relative;
 	margin-top: 50px;
 	padding: 25px;
 	border-radius: 2px;
 	width: 320px;
-	background-color: #fff;
+	background-color: #f0f0f0;
 	h3 {
 		font-size: 16px;
 		color: #333;
@@ -53,7 +50,7 @@
 		position: absolute;
 		left: 50%;
 		bottom: 100%;
-		margin: 0 0 -20px -60px;
+		margin: 0 0 -8px -60px;
 		width: 120px;
 	}
 	ul {
@@ -130,7 +127,6 @@
 	.code {
 		img {
 			display: none;
-			margin-bottom: -27px;
 		}
 		&:focus-within {
 			img {
