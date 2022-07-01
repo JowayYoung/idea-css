@@ -1,10 +1,10 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="使用filter雕刻高斯模糊">
 		<div class="glass-layer">
-			<p>我见犹怜</p>
-			<p>爱不释手</p>
-			<p>雅俗共赏</p>
-			<p>君子好逑</p>
+			<p>我武惟扬</p>
+			<p>爱日惜力</p>
+			<p>掘井及泉</p>
+			<p>金榜题名</p>
 		</div>
 	</div>
 </template>

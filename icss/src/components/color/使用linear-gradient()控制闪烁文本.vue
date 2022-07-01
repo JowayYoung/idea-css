@@ -15,7 +15,7 @@
 	font-size: 20px;
 	color: transparent;
 	animation: shine 2s infinite;
-	// -webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;
 }
 @keyframes shine {
 	from {
