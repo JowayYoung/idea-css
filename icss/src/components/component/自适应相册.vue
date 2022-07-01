@@ -2,7 +2,7 @@
 	<div class="bruce flex-ct-x" data-title="自适应相册">
 		<ul class="response-album">
 			<li v-for="v in 9" :key="v" class="item">
-				<img src="https://static.yangzw.vip/img/icss/ab-3.jpg">
+				<img src="https://jowayyoung.github.io/static/img/code/icss/ab-3.jpg">
 			</li>
 		</ul>
 	</div>

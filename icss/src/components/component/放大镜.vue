@@ -8,7 +8,7 @@
 $ratio: 2;
 $box-w: 600px;
 $box-h: 400px;
-$box-bg: "https://static.yangzw.vip/img/icss/gz.jpg";
+$box-bg: "https://jowayyoung.github.io/static/img/code/icss/gz.jpg";
 $outbox-w: $box-w * $ratio;
 $outbox-h: $box-h * $ratio;
 .magnifier {

@@ -2,7 +2,7 @@
 	<div class="bruce" data-title="图像换色器">
 		<div class="color-changer">
 			<input type="color" value="#ff6666">
-			<img src="https://static.yangzw.vip/img/icss/car.jpg">
+			<img src="https://jowayyoung.github.io/static/img/code/icss/car.jpg">
 		</div>
 	</div>
 </template>
