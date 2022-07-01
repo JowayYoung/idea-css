@@ -1,8 +1,8 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="使用writing-mode排版竖向文本">
 		<div class="vertical-text">
-			<h3>情</h3>
-			<p>我见犹怜，<br>爱不释手。<br>雅俗共赏，<br>君子好逑。</p>
+			<h3>名</h3>
+			<p>我武惟扬，<br>爱日惜力。<br>掘井及泉，<br>金榜题名。</p>
 		</div>
 	</div>
 </template>

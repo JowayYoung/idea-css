@@ -1,8 +1,8 @@
 <template>
 	<div class="bruce flex-ct-y" data-title="使用text-overflow控制溢出文本">
-		<p class="ellipsis-text s-line sl-ellipsis">CSS非常有趣和搞怪，可以做一些JS也能做的事情</p>
-		<p class="ellipsis-text m-line ml-ellipsis">层叠样式表(CSS)是一种用来表现HTML(标准通用标记语言的一个应用)或XML(标准通用标记语言的一个子集)等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。</p>
-		<p class="ellipsis-text m-line mls-ellipsis">层叠样式表(CSS)是一种用来表现HTML(标准通用标记语言的一个应用)或XML(标准通用标记语言的一个子集)等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。</p>
+		<p class="ellipsis-text s-line sl-ellipsis">CSS非常有趣与搞怪，可做一些JS也能做的事情</p>
+		<p class="ellipsis-text m-line ml-ellipsis">层叠样式表(CSS)是一种用于表现HTML(标准通用标记语言的一个应用)或XML(标准通用标记语言的一个子集)等文件样式的计算机语言。CSS不仅可静态地修饰网页，还可配合各种脚本语言动态地对网页各元素进行格式化。</p>
+		<p class="ellipsis-text m-line mls-ellipsis">层叠样式表(CSS)是一种用于表现HTML(标准通用标记语言的一个应用)或XML(标准通用标记语言的一个子集)等文件样式的计算机语言。CSS不仅可静态地修饰网页，还可配合各种脚本语言动态地对网页各元素进行格式化。</p>
 	</div>
 </template>
 

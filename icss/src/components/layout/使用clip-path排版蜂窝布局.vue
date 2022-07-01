@@ -6,21 +6,21 @@
 		<input id="d" type="checkbox" hidden>
 		<div class="cellular-layout" style="--count: 16;">
 			<label for="a" style="--index: 0;">我</label>
-			<label class="a" style="--index: 1;">见</label>
-			<label class="a" style="--index: 2;">犹</label>
-			<label class="a" style="--index: 3;">怜</label>
+			<label class="a" style="--index: 1;">武</label>
+			<label class="a" style="--index: 2;">惟</label>
+			<label class="a" style="--index: 3;">扬</label>
 			<label for="b" style="--index: 4;">爱</label>
-			<label class="b" style="--index: 5;">不</label>
-			<label class="b" style="--index: 6;">释</label>
-			<label class="b" style="--index: 7;">手</label>
-			<label for="c" style="--index: 8;">雅</label>
-			<label class="c" style="--index: 9;">俗</label>
-			<label class="c" style="--index: 10;">共</label>
-			<label class="c" style="--index: 11;">赏</label>
-			<label for="d" style="--index: 12;">君</label>
-			<label class="d" style="--index: 13;">子</label>
-			<label class="d" style="--index: 14;">好</label>
-			<label class="d" style="--index: 15;">逑</label>
+			<label class="b" style="--index: 5;">日</label>
+			<label class="b" style="--index: 6;">惜</label>
+			<label class="b" style="--index: 7;">力</label>
+			<label for="c" style="--index: 8;">掘</label>
+			<label class="c" style="--index: 9;">井</label>
+			<label class="c" style="--index: 10;">及</label>
+			<label class="c" style="--index: 11;">泉</label>
+			<label for="d" style="--index: 12;">金</label>
+			<label class="d" style="--index: 13;">榜</label>
+			<label class="d" style="--index: 14;">题</label>
+			<label class="d" style="--index: 15;">名</label>
 		</div>
 	</div>
 </template>
