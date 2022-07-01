@@ -2,7 +2,7 @@
 	<div class="bruce flex-ct-x" data-title="心形加载条">
 		<div class="heart-loading">
 			<ul style="--line-count: 9;">
-				<li v-for="v in 9" :key="v" :class="`line-${v}`" :style="`--line-index: ${v}`"></li>
+				<li v-for="v in 9" :key="v" :class="`line-${v}`" :style="`--line-index: ${v};`"></li>
 			</ul>
 		</div>
 	</div>

@@ -1,7 +1,7 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="条形加载条">
 		<ul class="strip-loading">
-			<li v-for="v in 6" :key="v" :style="`--line-index: ${v}`"></li>
+			<li v-for="v in 6" :key="v" :style="`--line-index: ${v};`"></li>
 		</ul>
 	</div>
 </template>

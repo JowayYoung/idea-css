@@ -37,14 +37,11 @@
 </template>
 
 <style lang="scss" scoped>
-.bruce {
-	background-color: #999;
-}
 .auth {
 	overflow: hidden;
 	border-radius: 2px;
 	width: 320px;
-	background-color: #fff;
+	background-color: #f0f0f0;
 	.auth-title {
 		display: flex;
 		position: relative;

@@ -1,6 +1,6 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="iOS开关按钮">
-		<input class="ios-switch" type="checkbox">
+	<div class="bruce flex-ct-x" data-title="开关按钮">
+		<input class="switch-btn" type="checkbox">
 	</div>
 </template>
 
@@ -11,7 +11,7 @@
 	height: 62px;
 	background-color: #e9e9eb;
 }
-.ios-switch {
+.switch-btn {
 	position: relative;
 	appearance: none;
 	cursor: pointer;
