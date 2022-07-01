@@ -8,7 +8,7 @@
 </template>
 
 <style lang="scss" scoped>
-$empty: "https://yangzw.vip/img/empty.svg";
+$empty: "https://static.yangzw.vip/img/empty.svg";
 .empty-list {
 	overflow: auto;
 	width: 200px;

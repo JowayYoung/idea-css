@@ -1,6 +1,5 @@
 <template>
 	<div class="bruce flex-ct-y" data-title="使用object-fit规定图像尺寸">
-		<h1>我家乖狗狗：AB</h1>
 		<ul class="image-size">
 			<li>
 				<h3>Cover</h3>
@@ -23,11 +22,6 @@
 </template>
 
 <style lang="scss" scoped>
-h1 {
-	line-height: 50px;
-	font-size: 30px;
-	color: #f66;
-}
 .image-size {
 	display: flex;
 	justify-content: space-between;

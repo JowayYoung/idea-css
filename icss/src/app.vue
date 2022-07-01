@@ -10,10 +10,10 @@
 			<p class="header-desc">请往下滚动浏览更多好看实用的纯CSS特效👇</p>
 			<p class="header-desc">根据美学标准将以下纯CSS特效划分为五大类</p>
 			<nav class="header-nav">
-				<a class="header-nav-item">布局</a>-
 				<a class="header-nav-item">行为</a>-
 				<a class="header-nav-item">色彩</a>-
 				<a class="header-nav-item">图形</a>-
+				<a class="header-nav-item">布局</a>-
 				<a class="header-nav-item">组件</a>
 			</nav>
 			<p class="header-desc">大部分纯CSS特效为原创，亦有少部分参考他人</p>
@@ -29,18 +29,6 @@
 				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="130" height="30" title="GitHub"></iframe>
 				<iframe src="https://ghbtns.com/github-btn.html?user=JowayYoung&repo=idea-css&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="140" height="30" title="GitHub"></iframe>
 			</div>
-		</div>
-		<div class="content layout">
-			<layout1></layout1>
-			<layout2></layout2>
-			<layout3></layout3>
-			<layout4></layout4>
-			<layout5></layout5>
-			<layout6></layout6>
-			<layout7></layout7>
-			<layout8></layout8>
-			<layout9></layout9>
-			<layout10></layout10>
 		</div>
 		<div class="content behavior">
 			<behavior1></behavior1>
@@ -92,6 +80,18 @@
 			<figure10></figure10>
 			<figure11></figure11>
 			<figure12></figure12>
+		</div>
+		<div class="content layout">
+			<layout1></layout1>
+			<layout2></layout2>
+			<layout3></layout3>
+			<layout4></layout4>
+			<layout5></layout5>
+			<layout6></layout6>
+			<layout7></layout7>
+			<layout8></layout8>
+			<layout9></layout9>
+			<layout10></layout10>
 		</div>
 		<div class="content component">
 			<component1></component1>
