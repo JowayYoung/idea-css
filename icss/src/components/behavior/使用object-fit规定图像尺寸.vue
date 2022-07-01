@@ -1,21 +1,21 @@
 <template>
-	<div class="bruce flex-ct-y" data-title="使用object-fit规定图像尺寸">
+	<div class="bruce flex-ct-x" data-title="使用object-fit规定图像尺寸">
 		<ul class="image-size">
 			<li>
 				<h3>Cover</h3>
-				<img class="cover" src="https://jowayyoung.github.io/static/img/code/icss/ab-1.jpg">
+				<img class="cover" src="https://jowayyoung.github.io/static/img/icss/ab-1.jpg">
 			</li>
 			<li>
 				<h3>Contain</h3>
-				<img class="contain" src="https://jowayyoung.github.io/static/img/code/icss/ab-1.jpg">
+				<img class="contain" src="https://jowayyoung.github.io/static/img/icss/ab-1.jpg">
 			</li>
 			<li>
 				<h3>Fill</h3>
-				<img class="fill" src="https://jowayyoung.github.io/static/img/code/icss/ab-2.jpg">
+				<img class="fill" src="https://jowayyoung.github.io/static/img/icss/ab-2.jpg">
 			</li>
 			<li>
 				<h3>ScaleDown</h3>
-				<img class="scale-down" src="https://jowayyoung.github.io/static/img/code/icss/ab-2.jpg">
+				<img class="scale-down" src="https://jowayyoung.github.io/static/img/icss/ab-2.jpg">
 			</li>
 		</ul>
 	</div>

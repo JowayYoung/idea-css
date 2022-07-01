@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-y" data-title="使用transform描绘动感心形">
+	<div class="bruce flex-ct-x" data-title="使用transform描绘动感心形">
 		<div class="heart-shape"></div>
 	</div>
 </template>

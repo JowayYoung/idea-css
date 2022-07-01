@@ -1,7 +1,7 @@
 <template>
 	<div class="bruce flex-ct-x" data-title="使用box-shadow裁剪聚焦区域">
 		<div class="img-cliper">
-			<img src="https://jowayyoung.github.io/static/img/code/icss/gz.jpg">
+			<img src="https://jowayyoung.github.io/static/img/icss/gz.jpg">
 			<i></i>
 		</div>
 	</div>

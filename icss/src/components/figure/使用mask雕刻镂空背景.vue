@@ -7,9 +7,9 @@
 </template>
 
 <style lang="scss" scoped>
-$mask-bg: "https://jowayyoung.github.io/static/img/code/icss/mountain.jpg";
-$mask-text: "https://jowayyoung.github.io/static/img/code/icss/snow.jpg";
-$logo: "../../assets/img/logo-netease.svg";
+$mask-bg: "https://jowayyoung.github.io/static/img/icss/mountain.jpg";
+$mask-text: "https://jowayyoung.github.io/static/img/icss/snow.jpg";
+$logo: "https://jowayyoung.github.io/static/img/icss/logo-netease.svg";
 .bruce {
 	padding: 0;
 	height: 400px;

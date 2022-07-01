@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-y" data-title="放大镜">
+	<div class="bruce flex-ct-x" data-title="放大镜">
 		<div class="magnifier"></div>
 	</div>
 </template>
@@ -8,7 +8,7 @@
 $ratio: 2;
 $box-w: 600px;
 $box-h: 400px;
-$box-bg: "https://jowayyoung.github.io/static/img/code/icss/gz.jpg";
+$box-bg: "https://jowayyoung.github.io/static/img/icss/gz.jpg";
 $outbox-w: $box-w * $ratio;
 $outbox-h: $box-h * $ratio;
 .magnifier {
