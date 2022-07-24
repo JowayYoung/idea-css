@@ -334,7 +334,7 @@ import Behavior4 from "./components/behavior/使用@hover控制悬浮边框.vue"
 import Behavior5 from "./components/behavior/使用@hover描绘鼠标跟随.vue";
 import Behavior6 from "./components/behavior/使用@not()去除无用属性.vue";
 import Behavior7 from "./components/behavior/使用@nth-child()选择指定元素.vue";
-import Behavior8 from "./components/behavior/使用@valid和@invalid校验表单内容.vue";
+import Behavior8 from "./components/behavior/使用@valid与@invalid校验表单内容.vue";
 import Behavior9 from "./components/behavior/使用+或~美化选项表单.vue";
 import Behavior10 from "./components/behavior/使用+或~选择指定元素.vue";
 import Behavior11 from "./components/behavior/使用animation-delay保留动画首帧.vue";

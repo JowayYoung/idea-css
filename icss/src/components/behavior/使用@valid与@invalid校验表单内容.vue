@@ -1,5 +1,5 @@
 <template>
-	<div class="bruce flex-ct-x" data-title="使用:valid和:invalid校验表单内容">
+	<div class="bruce flex-ct-x" data-title="使用:valid与:invalid校验表单内容">
 		<form class="form-validation">
 			<div>
 				<label>名字</label>
